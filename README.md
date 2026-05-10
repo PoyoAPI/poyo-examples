@@ -5,13 +5,14 @@ Examples for building with PoYo AI APIs.
 ## Start Here
 
 1. Create an account at [poyo.ai](https://poyo.ai).
-2. Sign in and open [API Keys](https://poyo.ai/dashboard/api-key).
+2. Open [API Keys](https://poyo.ai/dashboard/api-key).
 3. Create an API key.
 4. Set `POYO_API_KEY` in your server environment.
-5. Submit a task with `POST https://api.poyo.ai/api/generate/submit`.
-6. Save the returned `task_id`.
-7. Poll with `GET https://api.poyo.ai/api/generate/status/{task_id}`.
-8. Use `callback_url` for production webhook delivery.
+5. Set `POYO_BASE_URL` to the PoYo API base URL.
+6. Submit a task with `POST /api/generate/submit`.
+7. Save the returned `task_id`.
+8. Poll with `GET /api/generate/status/{task_id}`.
+9. Use `callback_url` for production webhooks.
 
 ## Environment
 
@@ -25,42 +26,28 @@ Never expose your API key in browser code, mobile apps, public repositories, or 
 
 ## Submit A Task
 
-```http
-POST /api/generate/submit
-Authorization: Bearer <POYO_API_KEY>
-Content-Type: application/json
-```
-
-```json
-{
-  "model": "gpt-image-2",
-  "callback_url": "https://your-domain.com/webhook",
-  "input": {
-    "prompt": "A clean product render of a translucent AI cube on a white studio surface",
-    "size": "1:1",
-    "resolution": "1K",
-    "quality": "low",
-    "n": 1
-  }
-}
+```bash
+curl -X POST "$POYO_BASE_URL/api/generate/submit" \
+  -H "Authorization: Bearer $POYO_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{
+    "model": "gpt-image-2",
+    "input": {
+      "prompt": "A clean product render of a translucent AI cube on a white studio surface",
+      "size": "1:1",
+      "resolution": "1K",
+      "quality": "low",
+      "n": 1
+    }
+  }'
 ```
 
 ## Check Status
 
-```http
-GET /api/generate/status/{task_id}
-Authorization: Bearer <POYO_API_KEY>
+```bash
+curl "$POYO_BASE_URL/api/generate/status/$POYO_TASK_ID" \
+  -H "Authorization: Bearer $POYO_API_KEY"
 ```
-
-## Examples To Add
-
-| Folder | Description |
-| --- | --- |
-| `curl/` | Copy-paste cURL requests for image, video, and polling. |
-| `python/` | Python submit-and-poll example. |
-| `node/` | Node.js submit-and-poll example. |
-| `webhooks/fastapi/` | FastAPI webhook receiver. |
-| `webhooks/express/` | Express webhook receiver. |
 
 ## Model Examples
 
@@ -96,7 +83,7 @@ Authorization: Bearer <POYO_API_KEY>
 
 ## Webhooks
 
-Add `callback_url` at the top level of the submit payload:
+Add `callback_url` at the top level of the submit payload.
 
 ```json
 {
@@ -108,4 +95,14 @@ Add `callback_url` at the top level of the submit payload:
 }
 ```
 
-Your webhook should accept JSON, return a `2xx` response quickly, and process the result asynchronously if your business logic is slow.
+Your webhook should accept JSON, return a `2xx` response quickly, and process slow business logic asynchronously.
+
+## Planned Examples
+
+| Folder | Description |
+| --- | --- |
+| `curl/` | cURL requests for image, video, and polling. |
+| `python/` | Python submit-and-poll example. |
+| `node/` | Node.js submit-and-poll example. |
+| `webhooks/fastapi/` | FastAPI webhook receiver. |
+| `webhooks/express/` | Express webhook receiver. |
