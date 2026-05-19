@@ -1,0 +1,63 @@
+# Meshy 6 Text To 3D cURL Quickstart
+
+Use `meshy-6-text-to-3d` when you want a prompt to become a downloadable 3D asset through the same async PoYo task flow.
+
+## Prompt To 3D
+
+```bash
+export POYO_API_KEY="YOUR_POYO_API_KEY_HERE"
+export POYO_BASE_URL="https://api.poyo.ai"
+
+curl --fail-with-body --request POST \
+  --url "$POYO_BASE_URL/api/generate/submit" \
+  --header "Authorization: Bearer $POYO_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data '{
+    "model": "meshy-6-text-to-3d",
+    "input": {
+      "prompt": "A compact futuristic desk lamp with rounded corners, matte white body, small blue accent light, product design style"
+    }
+  }'
+```
+
+Store the returned `data.task_id`, then poll:
+
+```bash
+curl --fail-with-body --request GET \
+  --url "$POYO_BASE_URL/api/generate/status/task-unified-example" \
+  --header "Authorization: Bearer $POYO_API_KEY"
+```
+
+## Expected Status Response
+
+The returned files depend on the selected Meshy workflow and upstream result. They may include preview images, GLB files, textures, rigging files, or animation files.
+
+```json
+{
+  "code": 200,
+  "data": {
+    "task_id": "task-unified-example",
+    "status": "finished",
+    "progress": 100,
+    "files": [
+      {
+        "file_url": "https://storage.poyo.ai/generated/model.glb",
+        "file_type": "model"
+      }
+    ],
+    "error_message": null
+  }
+}
+```
+
+## Ship Checklist
+
+- Start with text-to-3D before adding image or multi-image inputs.
+- Keep prompts concise and object-focused.
+- Poll every 10 seconds or use webhooks.
+- Save returned model files to your own storage before they expire.
+- Review the output before using it in game, AR, or product workflows.
+
+## Social Angle
+
+Prompt to 3D asset: PoYo can create a 3D generation task next to image, video, music, and chat workloads in the same account.
