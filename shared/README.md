@@ -63,6 +63,38 @@ Webhook handlers should:
 - Persist callback state before doing slow business logic.
 - Reconcile important callbacks with `GET /api/generate/status/{task_id}` before irreversible actions.
 
+## Troubleshooting
+
+Common issues during integration:
+
+| Symptom | Check |
+| --- | --- |
+| `401` or `403` auth error | Confirm `POYO_API_KEY` is set on the server, not in browser code, and that the request uses `Authorization: Bearer <POYO_API_KEY>`. |
+| Submit response has no `data.task_id` | Treat the response as failed, log the HTTP status and API `code`, and do not start polling. |
+| Polling times out | Keep the task ID and let a background worker or user-visible retry continue checking status. |
+| Duplicate webhook callback | Make webhook processing idempotent by task ID and terminal status. |
+| Unknown webhook task ID | Ignore it unless the task ID exists in your database. |
+| Generated file URL is unavailable | Download and store files soon after the task reaches `finished`; output URLs may expire. |
+
+## Production Logging
+
+Log enough data to debug a task without exposing secrets:
+
+- `task_id`
+- model name
+- submit time
+- current status
+- terminal status
+- HTTP status and API `code` for failures
+- number of returned files
+
+Do not log:
+
+- `POYO_API_KEY`
+- `Authorization` headers
+- private customer data
+- full webhook payloads that contain sensitive business metadata
+
 ## Chat
 
 Chat uses the synchronous OpenAI-style endpoint:
