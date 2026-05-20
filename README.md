@@ -31,8 +31,10 @@ Never expose a PoYo API key in browser code, mobile apps, public repositories, s
 | Test a model with cURL | [`curl/`](curl/) |
 | Build a Node.js backend | [`node/`](node/) |
 | Build a Python backend | [`python/`](python/) |
+| Add a Next.js server route | [`nextjs/`](nextjs/) |
+| Start from product recipes | [`recipes/`](recipes/) |
 | Receive production callbacks | [`webhooks/`](webhooks/) |
-| Understand shared response handling | [`shared/README.md`](shared/README.md) |
+| Troubleshoot shared behavior | [`shared/README.md`](shared/README.md) |
 | Promote demos on social channels | [`social/first-batch.md`](social/first-batch.md) |
 
 ## First Batch Examples
