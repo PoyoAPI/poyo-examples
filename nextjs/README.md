@@ -6,7 +6,7 @@ Use these examples when your web app needs to call PoYo from a server route inst
 
 | Example | What it shows |
 | --- | --- |
-| [`gpt-image-2-route`](gpt-image-2-route/) | Submit a `gpt-image-2` task from a Next.js route handler and return `task_id` to the client. |
+| [`gpt-image-2-route`](gpt-image-2-route/) | Submit a `gpt-image-2` task and check status through Next.js route handlers while keeping `POYO_API_KEY` server-side. |
 
 ## Why Server Routes
 
@@ -18,4 +18,4 @@ Recommended flow:
 2. Route reads `POYO_API_KEY` from the server environment.
 3. Route submits the PoYo task.
 4. Route returns `task_id` to the browser.
-5. Browser polls your app backend, or your backend waits for a webhook.
+5. Browser checks status through your app route, or your backend waits for a webhook.
