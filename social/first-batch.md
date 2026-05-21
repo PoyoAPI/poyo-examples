@@ -53,6 +53,53 @@ Use one account for chat planning, image generation, video, music, and 3D.
 
 Start here: `curl/chat/gpt-5.2.md`
 
+## Follow-up Posts
+
+### Next.js Secure Generation Flow
+
+Use this post after the first examples launch posts. The angle is developer safety: keep `POYO_API_KEY` server-side while the browser submits prompts and checks task status through your app.
+
+Asset: `social/assets/nextjs-server-route.png`
+
+Main post:
+
+```text
+Small Next.js flow we added to the PoYo examples repo:
+
+the browser never calls PoYo directly with your API key.
+
+Client sends a prompt to your own app route.
+Your server route calls PoYo.
+PoYo returns task_id.
+The client checks status through your backend.
+
+The example uses gpt-image-2, but the pattern works for other generation tasks too.
+
+Not flashy, but this is the kind of setup you want before putting AI generation into a real app.
+```
+
+Reply:
+
+```text
+Next.js example:
+https://github.com/PoyoAPI/poyo-examples/tree/main/nextjs/gpt-image-2-route
+```
+
+Optional second reply:
+
+```text
+The important part is keeping POYO_API_KEY server-side.
+
+The browser should talk to your app.
+Your app talks to PoYo.
+```
+
+Alt text:
+
+```text
+Two-row architecture diagram. Submit flow: browser sends prompt to your app route POST /api/poyo/gpt-image-2, the Next.js route calls the PoYo API endpoint POST /api/generate/submit, and task_id returns to the client. Status flow: browser sends task_id to your app route GET /api/poyo/status/{task_id}, the Next.js route calls the PoYo API endpoint GET /api/generate/status/{task_id}, and status/result returns to the client. The diagram notes that /api/poyo/* is the app route namespace, not a PoYo public endpoint.
+```
+
 ## Discord Announcements
 
 ### Full Batch
