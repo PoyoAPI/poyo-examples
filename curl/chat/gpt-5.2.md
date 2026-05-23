@@ -2,6 +2,20 @@
 
 Use `gpt-5.2` for OpenAI-style chat completion workflows. Unlike media generation, chat responses are synchronous and do not require polling.
 
+## Sample Response
+
+Sample output: [PoYo chat docs](https://docs.poyo.ai/api-manual/chat-series).
+
+Safe example assistant content:
+
+```text
+1. Keep the API key on the server.
+2. Validate the request body before calling the model.
+3. Log request IDs and status, not private user content.
+4. Return concise errors to the client.
+5. Add a retry policy for transient upstream failures.
+```
+
 ## Chat Completion
 
 ```bash

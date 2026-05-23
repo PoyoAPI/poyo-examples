@@ -4,6 +4,12 @@ Use `generate-music` when your product needs background tracks, creator-tool aud
 
 This first example uses simple mode so new users only need a prompt.
 
+## Sample Output
+
+Sample output: [PoYo model page sample](https://poyo.ai/models/generate-music).
+
+This links to the official PoYo model page output area, not to a private generated task or internal audio file.
+
 ## Simple Music Generation
 
 ```bash
