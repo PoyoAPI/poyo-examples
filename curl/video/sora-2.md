@@ -2,6 +2,12 @@
 
 Use `sora-2` for a high-interest video quickstart that demonstrates PoYo video tasks without adding storyboard complexity in the first run.
 
+## Sample Output
+
+Sample output: [PoYo model page sample](https://storage.poyo.ai/sora-2-official/feature-3.mp4).
+
+This is an official PoYo model page sample. The quickstart below keeps the current examples repo model ID as `sora-2`; check the [PoYo model catalog](https://poyo.ai/models) for current Sora model options.
+
 ## Text To Video
 
 ```bash
