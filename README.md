@@ -59,6 +59,19 @@ Never expose a PoYo API key in browser code, mobile apps, public repositories, s
 | `meshy-6-text-to-3d` | 3D | Async task | [cURL](curl/3d/meshy-6-text-to-3d.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page sample](https://storage.poyo.ai/meshy-6-3d/fal-text-to-3d/preview.png) |
 | `gpt-5.2` | Chat | Sync response | [cURL](curl/chat/gpt-5.2.md) | [Node.js](node/gpt-5.2/) | [Python](python/gpt-5.2/) | - | - | [Chat docs](https://docs.poyo.ai/api-manual/chat-series) |
 
+## Model-Specific Repositories
+
+Use this repo as the main integration hub. If you are searching for a single model, these focused repos provide smaller entry points with cURL, Node.js, webhook, prompt, and production notes.
+
+| Category | Model repo | Best for |
+| --- | --- | --- |
+| Image | [PoyoAPI/gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api) | GPT Image 2 generation and editing |
+| Image | [PoyoAPI/nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api) | Nano Banana 2 generation and image edits |
+| Image | [PoyoAPI/nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) | Nano Banana Pro higher-detail image workflows |
+| Video | [PoyoAPI/seedance-2-api](https://github.com/PoyoAPI/seedance-2-api) | Seedance 2 video generation and fast drafts |
+| Video | [PoyoAPI/sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api) | Sora 2 Official video and reference-frame workflows |
+| Video | [PoyoAPI/happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) | Happy Horse text-to-video and image-to-video workflows |
+
 ## Unified Async Flow
 
 Most media and 3D examples use the same backend pattern.
