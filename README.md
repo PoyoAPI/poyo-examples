@@ -1,5 +1,10 @@
 # PoYo Examples
 
+[![API docs](https://img.shields.io/badge/API%20docs-docs.poyo.ai-22d3ee)](https://docs.poyo.ai)
+[![Models](https://img.shields.io/badge/Models-poyo.ai%2Fmodels-a78bfa)](https://poyo.ai/models)
+[![License: MIT](https://img.shields.io/badge/License-MIT-111827)](LICENSE)
+[![Check examples](https://github.com/PoyoAPI/poyo-examples/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/poyo-examples/actions/workflows/check.yml)
+
 Production workflows for building image, video, music, 3D, and chat products with PoYo AI APIs.
 
 [Website](https://poyo.ai) | [Docs](https://docs.poyo.ai) | [Models](https://poyo.ai/models) | [Pricing](https://poyo.ai/pricing) | [Dashboard](https://poyo.ai/dashboard) | [Discord](https://discord.gg/F8JNuUPB3j)
