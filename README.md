@@ -11,6 +11,15 @@ Production workflows for building image, video, music, 3D, and chat products wit
 
 PoYo gives developers one account and one API workflow for multimodal generation. This repo is designed for backend builders: submit tasks from a server, store task IDs, poll or receive webhooks, then download generated files before they expire.
 
+## Repository Status
+
+- Latest release: [v0.1.0](https://github.com/PoyoAPI/poyo-examples/releases/tag/v0.1.0).
+- Changelog: [CHANGELOG.md](CHANGELOG.md).
+- Local checks: `make check` or `pwsh -NoLogo -NoProfile -File scripts/check.ps1`; on Windows PowerShell, use `powershell -NoLogo -NoProfile -File scripts/check.ps1`.
+- Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
+- Security reports: [SECURITY.md](SECURITY.md).
+- Issues: [choose a template](https://github.com/PoyoAPI/poyo-examples/issues/new/choose), [bug report](https://github.com/PoyoAPI/poyo-examples/issues/new?template=bug_report.md), or [example request](https://github.com/PoyoAPI/poyo-examples/issues/new?template=example_request.md).
+
 ## Start In 3 Minutes
 
 1. Create an account at [poyo.ai](https://poyo.ai).
@@ -130,4 +139,4 @@ Content-Type: application/json
 
 ## Contributing
 
-Issues and PRs are welcome. Keep examples small, backend-safe, and runnable with minimal dependencies.
+Issues and PRs are welcome. Keep examples small, backend-safe, and runnable with minimal dependencies. See [CONTRIBUTING.md](CONTRIBUTING.md) before adding examples, and use [SECURITY.md](SECURITY.md) for sensitive reports.
