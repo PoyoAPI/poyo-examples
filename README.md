@@ -1,34 +1,30 @@
-# PoYo Examples
+# Backend-safe AI generation examples for PoYo
 
 [![API docs](https://img.shields.io/badge/API%20docs-docs.poyo.ai-22d3ee)](https://docs.poyo.ai)
 [![Models](https://img.shields.io/badge/Models-poyo.ai%2Fmodels-a78bfa)](https://poyo.ai/models)
 [![License: MIT](https://img.shields.io/badge/License-MIT-111827)](LICENSE)
 [![Check examples](https://github.com/PoyoAPI/poyo-examples/actions/workflows/check.yml/badge.svg)](https://github.com/PoyoAPI/poyo-examples/actions/workflows/check.yml)
 
-Production workflows for building image, video, music, 3D, and chat products with PoYo AI APIs.
+Copy-paste backend workflows for PoYo image, video, music, 3D, and chat APIs.
 
 [Website](https://poyo.ai) | [Docs](https://docs.poyo.ai) | [Models](https://poyo.ai/models) | [Pricing](https://poyo.ai/pricing) | [Dashboard](https://poyo.ai/dashboard) | [Discord](https://discord.gg/F8JNuUPB3j)
 
-PoYo gives developers one account and one API workflow for multimodal generation. This repo is designed for backend builders: submit tasks from a server, store task IDs, poll or receive webhooks, then download generated files before they expire.
+PoYo gives developers one account and one production workflow for multimodal generation: keep the API key on your server, submit a task, store `data.task_id`, poll while testing, and use webhooks in production.
 
-## Repository Status
+## Run Your First Task In 3 Minutes
 
-- Latest release: [v0.1.0](https://github.com/PoyoAPI/poyo-examples/releases/tag/v0.1.0).
-- Changelog: [CHANGELOG.md](CHANGELOG.md).
-- Local checks: `make check` or `pwsh -NoLogo -NoProfile -File scripts/check.ps1`; on Windows PowerShell, use `powershell -NoLogo -NoProfile -File scripts/check.ps1`.
-- Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
-- Security reports: [SECURITY.md](SECURITY.md).
-- Issues: [choose a template](https://github.com/PoyoAPI/poyo-examples/issues/new/choose), [bug report](https://github.com/PoyoAPI/poyo-examples/issues/new?template=bug_report.md), or [example request](https://github.com/PoyoAPI/poyo-examples/issues/new?template=example_request.md).
+The core path is the same for most media and 3D models:
 
-## Start In 3 Minutes
+```text
+POYO_API_KEY -> submit task -> data.task_id -> status polling or callback_url
+```
 
 1. Create an account at [poyo.ai](https://poyo.ai).
 2. Create an API key in [API Keys](https://poyo.ai/dashboard/api-key).
-3. Copy `.env.example` to `.env`.
-4. Set `POYO_API_KEY`.
-5. Run one cURL, Node.js, or Python example.
-6. Store the returned `data.task_id`.
-7. Poll status or provide `callback_url` for webhooks.
+3. Copy `.env.example` to `.env` and set `POYO_API_KEY`.
+4. Run one cURL, Node.js, or Python example.
+5. Store the returned `data.task_id`.
+6. Poll status while testing, or pass `callback_url` for production webhooks.
 
 ```bash
 cp .env.example .env
@@ -36,20 +32,33 @@ export POYO_API_KEY="your-api-key"
 export POYO_BASE_URL="https://api.poyo.ai"
 ```
 
+Start with one of these:
+
+```bash
+# cURL quickstart
+cat curl/image/gpt-image-2.md
+
+# Node.js backend example
+(cd node/gpt-image-2 && npm install && npm start)
+
+# Python backend example
+(cd python/gpt-image-2 && pip install -r requirements.txt && python main.py)
+```
+
 Never expose a PoYo API key in browser code, mobile apps, public repositories, screenshots, or client-side logs.
 
-## Choose Your Workflow
+## Start By Goal
 
 | Goal | Start here |
 | --- | --- |
-| Test a model with cURL | [`curl/`](curl/) |
-| Build a Node.js backend | [`node/`](node/) |
-| Build a Python backend | [`python/`](python/) |
-| Add a Next.js server route | [`nextjs/`](nextjs/) |
-| Start from product recipes | [`recipes/`](recipes/) |
+| Generate or edit images | [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md), [`node/gpt-image-2/`](node/gpt-image-2/), [`python/gpt-image-2/`](python/gpt-image-2/) |
+| Generate short videos | [`curl/video/seedance-2.md`](curl/video/seedance-2.md), [`node/seedance-2/`](node/seedance-2/), [`python/seedance-2/`](python/seedance-2/) |
+| Try a high-interest video quickstart | [`curl/video/sora-2.md`](curl/video/sora-2.md) |
+| Build chat completions | [`curl/chat/gpt-5.2.md`](curl/chat/gpt-5.2.md), [`node/gpt-5.2/`](node/gpt-5.2/), [`python/gpt-5.2/`](python/gpt-5.2/) |
+| Keep API keys out of browser code | [`nextjs/gpt-image-2-route/`](nextjs/gpt-image-2-route/) |
 | Receive production callbacks | [`webhooks/`](webhooks/) |
-| Troubleshoot shared behavior | [`shared/README.md`](shared/README.md) |
-| Promote demos on social channels | [`social/first-batch.md`](social/first-batch.md) |
+| Build from product recipes | [`recipes/`](recipes/) |
+| Understand shared task behavior | [`shared/README.md`](shared/README.md) |
 
 ## First Batch Examples
 
@@ -136,6 +145,15 @@ Content-Type: application/json
 - Only process webhook task IDs your system submitted.
 - Download and store generated files before they expire.
 - Check [Dashboard History](https://poyo.ai/dashboard/history) when debugging task cost, status, and output.
+
+## Repository Status
+
+- Latest release: [v0.1.0](https://github.com/PoyoAPI/poyo-examples/releases/tag/v0.1.0).
+- Changelog: [CHANGELOG.md](CHANGELOG.md).
+- Local checks: `make check` or `pwsh -NoLogo -NoProfile -File scripts/check.ps1`; on Windows PowerShell, use `powershell -NoLogo -NoProfile -File scripts/check.ps1`.
+- Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
+- Security reports: [SECURITY.md](SECURITY.md).
+- Issues: [choose a template](https://github.com/PoyoAPI/poyo-examples/issues/new/choose), [bug report](https://github.com/PoyoAPI/poyo-examples/issues/new?template=bug_report.md), or [example request](https://github.com/PoyoAPI/poyo-examples/issues/new?template=example_request.md).
 
 ## Contributing
 
