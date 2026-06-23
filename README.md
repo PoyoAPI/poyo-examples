@@ -47,6 +47,12 @@ cat curl/image/gpt-image-2.md
 
 Never expose a PoYo API key in browser code, mobile apps, public repositories, screenshots, or client-side logs.
 
+## Cost And Failed Task Behavior
+
+For generation APIs, the real cost is the cost of getting a usable result, not just sending a request.
+
+PoYo uses credit-based pricing, and failed generation tasks are not charged credits. Your backend should still treat `failed` as a terminal state, log the reason, and retry only when it makes sense.
+
 ## Start By Goal
 
 | Goal | Start here |
