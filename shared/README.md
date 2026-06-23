@@ -30,6 +30,8 @@ Terminal states:
 - `finished`
 - `failed`
 
+Failed tasks are terminal states. Log the reason and surface it clearly, but failed generation tasks are not charged credits on PoYo.
+
 Non-terminal states:
 
 - `not_started`

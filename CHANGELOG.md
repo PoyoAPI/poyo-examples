@@ -9,6 +9,7 @@ All notable public example changes are recorded here.
 - Repository maintenance docs for contributors and security reporting.
 - Issue templates for bug reports and example requests.
 - README first-screen path for backend-safe task submission, `task_id` handling, polling, and webhooks.
+- README and shared notes for failed task cost behavior in production integrations.
 
 ### Changed
 
@@ -17,6 +18,7 @@ All notable public example changes are recorded here.
 - GitHub organization profile now points developers to `poyo-examples` first, with focused model repos as secondary entry points.
 - Focused model repository README first screens now repeat the backend-safe submit, `task_id`, polling, and webhook workflow.
 - Model-specific repositories now include Linguist metadata so PowerShell check scripts do not dominate GitHub language labels.
+- Main examples repository now includes Linguist metadata so the PowerShell check script does not dominate GitHub language labels.
 
 ## v0.1.0 - 2026-05-31
 
