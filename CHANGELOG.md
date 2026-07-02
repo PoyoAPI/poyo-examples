@@ -6,6 +6,7 @@ All notable public example changes are recorded here.
 
 ### Added
 
+- cURL quickstarts for recent model workflows: `grok-imagine-image`, `seedance-2-mini`, and `kling-3.0-turbo/standard`.
 - Repository maintenance docs for contributors and security reporting.
 - Issue templates for bug reports and example requests.
 - README first-screen path for backend-safe task submission, `task_id` handling, polling, and webhooks.
@@ -13,6 +14,7 @@ All notable public example changes are recorded here.
 
 ### Changed
 
+- README and cURL index now surface recent model quickstarts as follow-up links for new model posts.
 - README now links the maintenance, contribution, and security resources.
 - README workflow navigation now starts from developer goals instead of repository categories.
 - GitHub organization profile now points developers to `poyo-examples` first, with focused model repos as secondary entry points.

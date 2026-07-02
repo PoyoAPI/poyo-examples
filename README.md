@@ -47,6 +47,16 @@ cat curl/image/gpt-image-2.md
 
 Never expose a PoYo API key in browser code, mobile apps, public repositories, screenshots, or client-side logs.
 
+## Recent Model Quickstarts
+
+These examples match the latest model posts and are the best GitHub follow-up links after sharing model demos on X.
+
+| Model | Best for | cURL |
+| --- | --- | --- |
+| `grok-imagine-image` | Image quality tests and visual concept drafts | [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md) |
+| `seedance-2-mini` | Lower-cost video draft loops and quick direction tests | [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md) |
+| `kling-3.0-turbo/standard` | Fast 720p video drafts and multi-shot storyboards | [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md) |
+
 ## Cost And Failed Task Behavior
 
 For generation APIs, the real cost is the cost of getting a usable result, not just sending a request.
@@ -57,8 +67,8 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Goal | Start here |
 | --- | --- |
-| Generate or edit images | [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md), [`node/gpt-image-2/`](node/gpt-image-2/), [`python/gpt-image-2/`](python/gpt-image-2/) |
-| Generate short videos | [`curl/video/seedance-2.md`](curl/video/seedance-2.md), [`node/seedance-2/`](node/seedance-2/), [`python/seedance-2/`](python/seedance-2/) |
+| Generate or edit images | [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md), [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md), [`node/gpt-image-2/`](node/gpt-image-2/), [`python/gpt-image-2/`](python/gpt-image-2/) |
+| Generate short videos | [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md), [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md), [`curl/video/seedance-2.md`](curl/video/seedance-2.md), [`node/seedance-2/`](node/seedance-2/), [`python/seedance-2/`](python/seedance-2/) |
 | Try a high-interest video quickstart | [`curl/video/sora-2.md`](curl/video/sora-2.md) |
 | Build chat completions | [`curl/chat/gpt-5.2.md`](curl/chat/gpt-5.2.md), [`node/gpt-5.2/`](node/gpt-5.2/), [`python/gpt-5.2/`](python/gpt-5.2/) |
 | Keep API keys out of browser code | [`nextjs/gpt-image-2-route/`](nextjs/gpt-image-2-route/) |
@@ -71,6 +81,9 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 | Model | Capability | Example |
 | --- | --- | --- |
 | `gpt-image-2` | Product image generation and editing | [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md) |
+| `grok-imagine-image` | Image quality and visual concept generation | [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md) |
+| `seedance-2-mini` | Lower-cost video draft generation | [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md) |
+| `kling-3.0-turbo/standard` | Fast video generation and multi-shot storyboards | [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md) |
 | `seedance-2` | Short social video generation | [`curl/video/seedance-2.md`](curl/video/seedance-2.md) |
 | `sora-2` | High-interest video quickstart | [`curl/video/sora-2.md`](curl/video/sora-2.md) |
 | `generate-music` | Background music generation | [`curl/music/generate-music.md`](curl/music/generate-music.md) |
@@ -82,6 +95,9 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 | Model | Modality | Workflow | cURL | Node.js | Python | Next.js | Webhook | Sample Output |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | `gpt-image-2` | Image | Async task | [cURL](curl/image/gpt-image-2.md) | [Node.js](node/gpt-image-2/) | [Python](python/gpt-image-2/) | [Route](nextjs/gpt-image-2-route/) | [Receivers](webhooks/) | [PoYo model page sample](https://storage.poyo.ai/gpt-image-2/gpt-image-2-example-1_1.png) |
+| `grok-imagine-image` | Image | Async task | [cURL](curl/image/grok-imagine-image.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/grok-imagine) |
+| `seedance-2-mini` | Video | Async task | [cURL](curl/video/seedance-2-mini.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/seedance-2-mini) |
+| `kling-3.0-turbo/standard` | Video | Async task | [cURL](curl/video/kling-3-0-turbo.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/kling-3-0-turbo) |
 | `seedance-2` | Video | Async task | [cURL](curl/video/seedance-2.md) | [Node.js](node/seedance-2/) | [Python](python/seedance-2/) | - | [Receivers](webhooks/) | [PoYo model page sample](https://storage.poyo.ai/seedance-2/feature-1.mp4) |
 | `sora-2` | Video | Async task | [cURL](curl/video/sora-2.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page sample](https://storage.poyo.ai/sora-2-official/feature-3.mp4) |
 | `generate-music` | Music | Async task | [cURL](curl/music/generate-music.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page sample](https://poyo.ai/models/generate-music) |
