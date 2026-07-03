@@ -53,6 +53,9 @@ These examples match the latest model posts and are the best GitHub follow-up li
 
 | Model | Best for | cURL |
 | --- | --- | --- |
+| `claude-sonnet-5` | Agentic coding, planning, and long-context chat workflows | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md) |
+| `nano-banana-2-lite` | Fast lower-cost image drafts and high-throughput visual tests | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md) |
+| `omni-flash` | Short video drafts from prompts, images, or video references | [`curl/video/omni-flash.md`](curl/video/omni-flash.md) |
 | `grok-imagine-image` | Image quality tests and visual concept drafts | [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md) |
 | `seedance-2-mini` | Lower-cost video draft loops and quick direction tests | [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md) |
 | `kling-3.0-turbo/standard` | Fast 720p video drafts and multi-shot storyboards | [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md) |
@@ -67,10 +70,10 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Goal | Start here |
 | --- | --- |
-| Generate or edit images | [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md), [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md), [`node/gpt-image-2/`](node/gpt-image-2/), [`python/gpt-image-2/`](python/gpt-image-2/) |
-| Generate short videos | [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md), [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md), [`curl/video/seedance-2.md`](curl/video/seedance-2.md), [`node/seedance-2/`](node/seedance-2/), [`python/seedance-2/`](python/seedance-2/) |
+| Generate or edit images | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md), [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md), [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md), [`node/gpt-image-2/`](node/gpt-image-2/), [`python/gpt-image-2/`](python/gpt-image-2/) |
+| Generate short videos | [`curl/video/omni-flash.md`](curl/video/omni-flash.md), [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md), [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md), [`curl/video/seedance-2.md`](curl/video/seedance-2.md), [`node/seedance-2/`](node/seedance-2/), [`python/seedance-2/`](python/seedance-2/) |
 | Try a high-interest video quickstart | [`curl/video/sora-2.md`](curl/video/sora-2.md) |
-| Build chat completions | [`curl/chat/gpt-5.2.md`](curl/chat/gpt-5.2.md), [`node/gpt-5.2/`](node/gpt-5.2/), [`python/gpt-5.2/`](python/gpt-5.2/) |
+| Build chat completions | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md), [`curl/chat/gpt-5.2.md`](curl/chat/gpt-5.2.md), [`node/gpt-5.2/`](node/gpt-5.2/), [`python/gpt-5.2/`](python/gpt-5.2/) |
 | Keep API keys out of browser code | [`nextjs/gpt-image-2-route/`](nextjs/gpt-image-2-route/) |
 | Receive production callbacks | [`webhooks/`](webhooks/) |
 | Build from product recipes | [`recipes/`](recipes/) |
@@ -80,6 +83,9 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Model | Capability | Example |
 | --- | --- | --- |
+| `claude-sonnet-5` | Agentic chat, coding, planning, and long-context work | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md) |
+| `nano-banana-2-lite` | Fast lower-cost image generation and edits | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md) |
+| `omni-flash` | Prompt, image, or video guided video drafts | [`curl/video/omni-flash.md`](curl/video/omni-flash.md) |
 | `gpt-image-2` | Product image generation and editing | [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md) |
 | `grok-imagine-image` | Image quality and visual concept generation | [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md) |
 | `seedance-2-mini` | Lower-cost video draft generation | [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md) |
@@ -94,6 +100,9 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Model | Modality | Workflow | cURL | Node.js | Python | Next.js | Webhook | Sample Output |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| `claude-sonnet-5` | Chat | Sync response | [cURL](curl/chat/claude-sonnet-5.md) | - | - | - | - | [PoYo model page](https://poyo.ai/models/claude-sonnet-5) |
+| `nano-banana-2-lite` | Image | Async task | [cURL](curl/image/nano-banana-2-lite.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/nano-banana-2-lite) |
+| `omni-flash` | Video | Async task | [cURL](curl/video/omni-flash.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/omni-flash) |
 | `gpt-image-2` | Image | Async task | [cURL](curl/image/gpt-image-2.md) | [Node.js](node/gpt-image-2/) | [Python](python/gpt-image-2/) | [Route](nextjs/gpt-image-2-route/) | [Receivers](webhooks/) | [PoYo model page sample](https://storage.poyo.ai/gpt-image-2/gpt-image-2-example-1_1.png) |
 | `grok-imagine-image` | Image | Async task | [cURL](curl/image/grok-imagine-image.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/grok-imagine) |
 | `seedance-2-mini` | Video | Async task | [cURL](curl/video/seedance-2-mini.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/seedance-2-mini) |
