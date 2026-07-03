@@ -6,6 +6,7 @@ All notable public example changes are recorded here.
 
 ### Added
 
+- Focused model repository links for Claude Sonnet 5, Nano Banana 2 Lite, Grok Imagine Image, Omni Flash, and Kling 3.0 Turbo.
 - cURL quickstarts for current high-interest models: `claude-sonnet-5`, `nano-banana-2-lite`, and `omni-flash`.
 - cURL quickstarts for recent model workflows: `grok-imagine-image`, `seedance-2-mini`, and `kling-3.0-turbo/standard`.
 - Repository maintenance docs for contributors and security reporting.
