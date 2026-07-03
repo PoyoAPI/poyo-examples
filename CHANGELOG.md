@@ -6,6 +6,7 @@ All notable public example changes are recorded here.
 
 ### Added
 
+- cURL quickstarts for current high-interest models: `claude-sonnet-5`, `nano-banana-2-lite`, and `omni-flash`.
 - cURL quickstarts for recent model workflows: `grok-imagine-image`, `seedance-2-mini`, and `kling-3.0-turbo/standard`.
 - Repository maintenance docs for contributors and security reporting.
 - Issue templates for bug reports and example requests.
@@ -14,6 +15,7 @@ All notable public example changes are recorded here.
 
 ### Changed
 
+- README, cURL index, and GitHub organization profile now surface Claude Sonnet 5, Nano Banana 2 Lite, and Omni Flash entry points.
 - README and cURL index now surface recent model quickstarts as follow-up links for new model posts.
 - README now links the maintenance, contribution, and security resources.
 - README workflow navigation now starts from developer goals instead of repository categories.
