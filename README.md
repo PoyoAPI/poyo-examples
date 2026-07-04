@@ -150,6 +150,14 @@ Use this repo as the main integration hub. If you are searching for a single mod
 | Music | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) | ElevenLabs v3 narration, dialogue, and voiceover workflows |
 | Music | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) | MiniMax Music 2.6 background music and creator audio drafts |
 
+## Coming Soon / Watchlist
+
+These repos track high-interest models before runnable API examples are available. They should not be treated as live submit examples.
+
+| Model | Status | Notes |
+| --- | --- | --- |
+| [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) | Coming soon | Tracks expected Seedance 2.5 workflows: 30-second single-segment clips, up to 4K-oriented output, up to 50 multimodal references, region-level editing, and longer-scene consistency. |
+
 ## Unified Async Flow
 
 Most media and 3D examples use the same backend pattern.
