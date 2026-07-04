@@ -16,8 +16,10 @@ Use these standalone repos when you want the smallest project for one current mo
 
 | Category | Repository |
 | --- | --- |
-| Chat | [Gemini 3 API](https://github.com/PoyoAPI/gemini-3-api), [DeepSeek V4 API](https://github.com/PoyoAPI/deepseek-v4-api) |
-| Video | [Veo 3.1 Official API](https://github.com/PoyoAPI/veo-3-1-official-api), [Grok Imagine Video 1.5 API](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
-| Music | [ElevenLabs v3 TTS API](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [MiniMax Music 2.6 API](https://github.com/PoyoAPI/minimax-music-2-6-api) |
+| Chat | [Claude 4.5 API](https://github.com/PoyoAPI/claude-4-5-api) ([model](https://poyo.ai/models/claude-4-5-api)), [Gemini 3 API](https://github.com/PoyoAPI/gemini-3-api), [DeepSeek V4 API](https://github.com/PoyoAPI/deepseek-v4-api) |
+| Image | [Seedream 4.5 API](https://github.com/PoyoAPI/seedream-4-5-api) ([model](https://poyo.ai/models/seedream-4-5-api)) |
+| Video | [Runway Gen-4.5 API](https://github.com/PoyoAPI/runway-gen-4-5-api) ([model](https://poyo.ai/models/runway-gen-4-5)), [Kling O3 API](https://github.com/PoyoAPI/kling-o3-api) ([model](https://poyo.ai/models/kling-o3-api)), [Wan 2.7 Video API](https://github.com/PoyoAPI/wan-2-7-video-api) ([model](https://poyo.ai/models/wan-2-7-video)), [Veo 3.1 Official API](https://github.com/PoyoAPI/veo-3-1-official-api), [Grok Imagine Video 1.5 API](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
+| Music | [Gemini 3.1 Flash TTS API](https://github.com/PoyoAPI/gemini-3-1-flash-tts-api) ([model](https://poyo.ai/models/gemini-3-1-flash-tts)), [ElevenLabs Music API](https://github.com/PoyoAPI/elevenlabs-music-api) ([model](https://poyo.ai/models/elevenlabs-music)), [ElevenLabs v3 TTS API](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [MiniMax Music 2.6 API](https://github.com/PoyoAPI/minimax-music-2-6-api) |
+| 3D | [Meshy 6 3D API](https://github.com/PoyoAPI/meshy-6-3d-api) ([model](https://poyo.ai/models/meshy-6-3d)) |
 
 These snippets use Bash line continuation. On Windows PowerShell, adapt line continuations or use Git Bash/WSL.
