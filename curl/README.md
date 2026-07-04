@@ -10,4 +10,14 @@ Use these examples when you want the smallest possible backend-safe API call.
 | 3D | [`3d/meshy-6-text-to-3d.md`](3d/meshy-6-text-to-3d.md) |
 | Chat | [`chat/claude-sonnet-5.md`](chat/claude-sonnet-5.md), [`chat/gpt-5.2.md`](chat/gpt-5.2.md) |
 
+## Focused Model Repos
+
+Use these standalone repos when you want the smallest project for one current model.
+
+| Category | Repository |
+| --- | --- |
+| Chat | [Gemini 3 API](https://github.com/PoyoAPI/gemini-3-api), [DeepSeek V4 API](https://github.com/PoyoAPI/deepseek-v4-api) |
+| Video | [Veo 3.1 Official API](https://github.com/PoyoAPI/veo-3-1-official-api), [Grok Imagine Video 1.5 API](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
+| Music | [ElevenLabs v3 TTS API](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [MiniMax Music 2.6 API](https://github.com/PoyoAPI/minimax-music-2-6-api) |
+
 These snippets use Bash line continuation. On Windows PowerShell, adapt line continuations or use Git Bash/WSL.

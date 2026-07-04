@@ -49,10 +49,16 @@ Never expose a PoYo API key in browser code, mobile apps, public repositories, s
 
 ## Recent Model Quickstarts
 
-These examples match the latest model posts and are the best GitHub follow-up links after sharing model demos on X.
+These examples match the latest model and repo maintenance work. Use the focused repos when you want the smallest standalone project for one model.
 
-| Model | Best for | cURL |
+| Model | Best for | Start here |
 | --- | --- | --- |
+| `veo3.1-fast-official` | Fast Veo 3.1 video drafts with native audio options | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api) |
+| `gemini-3-flash-preview` | Coding, agent, and long-context chat workflows | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) |
+| `deepseek-v4-flash` | Cost-aware coding, reasoning, and assistant workflows | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) |
+| `grok-imagine-video-1.5` | Image-to-video drafts for product and creator tools | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
+| `elevenlabs-v3-tts` | Expressive narration, dialogue, and voiceover workflows | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) |
+| `minimax-music-2.6` | Music drafts for creator tools and product videos | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
 | `claude-sonnet-5` | Agentic coding, planning, and long-context chat workflows | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md) |
 | `nano-banana-2-lite` | Fast lower-cost image drafts and high-throughput visual tests | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md) |
 | `omni-flash` | Short video drafts from prompts, images, or video references | [`curl/video/omni-flash.md`](curl/video/omni-flash.md) |
@@ -71,9 +77,10 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 | Goal | Start here |
 | --- | --- |
 | Generate or edit images | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md), [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md), [`curl/image/grok-imagine-image.md`](curl/image/grok-imagine-image.md), [`node/gpt-image-2/`](node/gpt-image-2/), [`python/gpt-image-2/`](python/gpt-image-2/) |
-| Generate short videos | [`curl/video/omni-flash.md`](curl/video/omni-flash.md), [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md), [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md), [`curl/video/seedance-2.md`](curl/video/seedance-2.md), [`node/seedance-2/`](node/seedance-2/), [`python/seedance-2/`](python/seedance-2/) |
+| Generate short videos | [Veo 3.1 Official repo](https://github.com/PoyoAPI/veo-3-1-official-api), [Grok Imagine Video 1.5 repo](https://github.com/PoyoAPI/grok-imagine-video-1-5-api), [`curl/video/omni-flash.md`](curl/video/omni-flash.md), [`curl/video/seedance-2-mini.md`](curl/video/seedance-2-mini.md), [`curl/video/kling-3-0-turbo.md`](curl/video/kling-3-0-turbo.md), [`curl/video/seedance-2.md`](curl/video/seedance-2.md), [`node/seedance-2/`](node/seedance-2/), [`python/seedance-2/`](python/seedance-2/) |
 | Try a high-interest video quickstart | [`curl/video/sora-2.md`](curl/video/sora-2.md) |
-| Build chat completions | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md), [`curl/chat/gpt-5.2.md`](curl/chat/gpt-5.2.md), [`node/gpt-5.2/`](node/gpt-5.2/), [`python/gpt-5.2/`](python/gpt-5.2/) |
+| Build chat completions | [Gemini 3 repo](https://github.com/PoyoAPI/gemini-3-api), [DeepSeek V4 repo](https://github.com/PoyoAPI/deepseek-v4-api), [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md), [`curl/chat/gpt-5.2.md`](curl/chat/gpt-5.2.md), [`node/gpt-5.2/`](node/gpt-5.2/), [`python/gpt-5.2/`](python/gpt-5.2/) |
+| Generate speech or music | [ElevenLabs v3 TTS repo](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [MiniMax Music 2.6 repo](https://github.com/PoyoAPI/minimax-music-2-6-api), [`curl/music/generate-music.md`](curl/music/generate-music.md) |
 | Keep API keys out of browser code | [`nextjs/gpt-image-2-route/`](nextjs/gpt-image-2-route/) |
 | Receive production callbacks | [`webhooks/`](webhooks/) |
 | Build from product recipes | [`recipes/`](recipes/) |
@@ -83,6 +90,12 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Model | Capability | Example |
 | --- | --- | --- |
+| `veo3.1-fast-official` | Fast Veo 3.1 video generation | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api) |
+| `gemini-3-flash-preview` | Chat, coding, and agent workflows | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) |
+| `deepseek-v4-flash` | Cost-aware chat and coding workflows | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) |
+| `grok-imagine-video-1.5` | Image-to-video draft generation | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
+| `elevenlabs-v3-tts` | Text-to-speech and voiceover generation | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) |
+| `minimax-music-2.6` | Music generation for creator workflows | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
 | `claude-sonnet-5` | Agentic chat, coding, planning, and long-context work | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md) |
 | `nano-banana-2-lite` | Fast lower-cost image generation and edits | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md) |
 | `omni-flash` | Prompt, image, or video guided video drafts | [`curl/video/omni-flash.md`](curl/video/omni-flash.md) |
@@ -119,17 +132,23 @@ Use this repo as the main integration hub. If you are searching for a single mod
 
 | Category | Model repo | Best for |
 | --- | --- | --- |
+| Chat | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) | Gemini 3 chat, coding, and agent workflows |
+| Chat | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) | DeepSeek V4 Flash and Pro cost-aware assistant workflows |
 | Chat | [PoyoAPI/claude-sonnet-5-api](https://github.com/PoyoAPI/claude-sonnet-5-api) | Claude Sonnet 5 chat, coding, and agentic workflows |
 | Image | [PoyoAPI/gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api) | GPT Image 2 generation and editing |
 | Image | [PoyoAPI/grok-imagine-image-api](https://github.com/PoyoAPI/grok-imagine-image-api) | Grok Imagine Image visual quality tests |
 | Image | [PoyoAPI/nano-banana-2-lite-api](https://github.com/PoyoAPI/nano-banana-2-lite-api) | Nano Banana 2 Lite lower-cost image drafts |
 | Image | [PoyoAPI/nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api) | Nano Banana 2 generation and image edits |
 | Image | [PoyoAPI/nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) | Nano Banana Pro higher-detail image workflows |
+| Video | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api) | Veo 3.1 Official fast, lite, and quality video workflows |
+| Video | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) | Grok Imagine Video 1.5 image-to-video drafts |
 | Video | [PoyoAPI/omni-flash-api](https://github.com/PoyoAPI/omni-flash-api) | Omni Flash prompt, image, and video guided drafts |
 | Video | [PoyoAPI/kling-3-0-turbo-api](https://github.com/PoyoAPI/kling-3-0-turbo-api) | Kling 3.0 Turbo fast drafts and multi-shot storyboards |
 | Video | [PoyoAPI/seedance-2-api](https://github.com/PoyoAPI/seedance-2-api) | Seedance 2 video generation and fast drafts |
 | Video | [PoyoAPI/sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api) | Sora 2 Official video and reference-frame workflows |
 | Video | [PoyoAPI/happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) | Happy Horse text-to-video and image-to-video workflows |
+| Music | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) | ElevenLabs v3 narration, dialogue, and voiceover workflows |
+| Music | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) | MiniMax Music 2.6 background music and creator audio drafts |
 
 ## Unified Async Flow
 
