@@ -154,9 +154,9 @@ Use this repo as the main integration hub. If you are searching for a single mod
 
 These repos track high-interest models before runnable API examples are available. They should not be treated as live submit examples.
 
-| Model | Status | Notes |
-| --- | --- | --- |
-| [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) | Coming soon | Tracks expected Seedance 2.5 workflows: 30-second single-segment clips, up to 4K-oriented output, up to 50 multimodal references, region-level editing, and longer-scene consistency. |
+| Model | Status | Links | Notes |
+| --- | --- | --- | --- |
+| Seedance 2.5 | Coming soon | [Model page](https://poyo.ai/models/seedance-2-5), [GitHub repo](https://github.com/PoyoAPI/seedance-2-5-api) | Tracks expected Seedance 2.5 workflows: 30-second single-segment clips, up to 4K-oriented output, up to 50 multimodal references, region-level editing, and longer-scene consistency. |
 
 ## Unified Async Flow
 
