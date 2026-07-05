@@ -132,16 +132,23 @@ Use this repo as the main integration hub. If you are searching for a single mod
 
 | Category | Model repo | Best for |
 | --- | --- | --- |
+| Chat | [PoyoAPI/gpt-5-5-api](https://github.com/PoyoAPI/gpt-5-5-api) ([model page](https://poyo.ai/models/gpt-5-5)) | GPT-5.5 chat, coding, and agent workflows |
+| Chat | [PoyoAPI/claude-opus-4-8-api](https://github.com/PoyoAPI/claude-opus-4-8-api) ([model page](https://poyo.ai/models/claude-opus-4-8)) | Claude Opus 4.8 reasoning, coding, and agent workflows |
+| Chat | [PoyoAPI/gemini-3-5-flash-api](https://github.com/PoyoAPI/gemini-3-5-flash-api) ([model page](https://poyo.ai/models/gemini-3-5-flash)) | Gemini 3.5 Flash fast assistant and routing workflows |
 | Chat | [PoyoAPI/claude-4-5-api](https://github.com/PoyoAPI/claude-4-5-api) ([model page](https://poyo.ai/models/claude-4-5-api)) | Claude 4.5 Opus, Sonnet, and Haiku agent workflows |
 | Chat | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) | Gemini 3 chat, coding, and agent workflows |
 | Chat | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) | DeepSeek V4 Flash and Pro cost-aware assistant workflows |
 | Chat | [PoyoAPI/claude-sonnet-5-api](https://github.com/PoyoAPI/claude-sonnet-5-api) | Claude Sonnet 5 chat, coding, and agentic workflows |
+| Image | [PoyoAPI/grok-imagine-image-quality-api](https://github.com/PoyoAPI/grok-imagine-image-quality-api) ([model page](https://poyo.ai/models/grok-imagine-image-quality)) | Grok Imagine Image Quality photorealistic image drafts |
+| Image | [PoyoAPI/flux-2-api](https://github.com/PoyoAPI/flux-2-api) ([model page](https://poyo.ai/models/flux-2)) | FLUX.2 pro and flex image generation and editing workflows |
+| Image | [PoyoAPI/seedream-5-0-lite-api](https://github.com/PoyoAPI/seedream-5-0-lite-api) ([model page](https://poyo.ai/models/seedream-5-0-lite-api)) | Seedream 5.0 Lite fast image generation and edit drafts |
 | Image | [PoyoAPI/seedream-4-5-api](https://github.com/PoyoAPI/seedream-4-5-api) ([model page](https://poyo.ai/models/seedream-4-5-api)) | Seedream 4.5 generation and edit drafts |
 | Image | [PoyoAPI/gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api) | GPT Image 2 generation and editing |
 | Image | [PoyoAPI/grok-imagine-image-api](https://github.com/PoyoAPI/grok-imagine-image-api) | Grok Imagine Image visual quality tests |
 | Image | [PoyoAPI/nano-banana-2-lite-api](https://github.com/PoyoAPI/nano-banana-2-lite-api) | Nano Banana 2 Lite lower-cost image drafts |
 | Image | [PoyoAPI/nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api) | Nano Banana 2 generation and image edits |
 | Image | [PoyoAPI/nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) | Nano Banana Pro higher-detail image workflows |
+| Video | [PoyoAPI/kling-3-api](https://github.com/PoyoAPI/kling-3-api) ([model page](https://poyo.ai/models/kling-3-api)) | Kling 3.0 standard, pro, and 4K video workflows |
 | Video | [PoyoAPI/runway-gen-4-5-api](https://github.com/PoyoAPI/runway-gen-4-5-api) ([model page](https://poyo.ai/models/runway-gen-4-5)) | Runway Gen-4.5 cinematic text-to-video and image-to-video workflows |
 | Video | [PoyoAPI/kling-o3-api](https://github.com/PoyoAPI/kling-o3-api) ([model page](https://poyo.ai/models/kling-o3-api)) | Kling O3 standard, pro, and 4K video workflows |
 | Video | [PoyoAPI/wan-2-7-video-api](https://github.com/PoyoAPI/wan-2-7-video-api) ([model page](https://poyo.ai/models/wan-2-7-video)) | Wan 2.7 text, image, reference, and edit video workflows |
@@ -156,6 +163,7 @@ Use this repo as the main integration hub. If you are searching for a single mod
 | Music | [PoyoAPI/elevenlabs-music-api](https://github.com/PoyoAPI/elevenlabs-music-api) ([model page](https://poyo.ai/models/elevenlabs-music)) | ElevenLabs Music prompt-based creator audio workflows |
 | Music | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) | ElevenLabs v3 narration, dialogue, and voiceover workflows |
 | Music | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) | MiniMax Music 2.6 background music and creator audio drafts |
+| 3D | [PoyoAPI/hunyuan-3d-3-1-api](https://github.com/PoyoAPI/hunyuan-3d-3-1-api) ([model page](https://poyo.ai/models/hunyuan-3d-3-1)) | Hunyuan 3D 3.1 pro and rapid 3D asset workflows |
 | 3D | [PoyoAPI/meshy-6-3d-api](https://github.com/PoyoAPI/meshy-6-3d-api) ([model page](https://poyo.ai/models/meshy-6-3d)) | Meshy 6 text-to-3D, image-to-3D, and multi-image-to-3D workflows |
 
 ## Coming Soon / Watchlist
