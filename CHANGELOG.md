@@ -6,6 +6,7 @@ All notable public example changes are recorded here.
 
 ### Added
 
+- Focused `seedream-5-0-pro-api` repository for structured image generation, reference-guided editing, polling, and webhook workflows.
 - Focused model repository links for Claude Sonnet 5, Nano Banana 2 Lite, Grok Imagine Image, Omni Flash, and Kling 3.0 Turbo.
 - cURL quickstarts for current high-interest models: `claude-sonnet-5`, `nano-banana-2-lite`, and `omni-flash`.
 - cURL quickstarts for recent model workflows: `grok-imagine-image`, `seedance-2-mini`, and `kling-3.0-turbo/standard`.
@@ -16,6 +17,7 @@ All notable public example changes are recorded here.
 
 ### Changed
 
+- README and cURL indexes now surface Seedream 5.0 Pro as the current image-model quickstart.
 - README, cURL index, and GitHub organization profile now surface Claude Sonnet 5, Nano Banana 2 Lite, and Omni Flash entry points.
 - README and cURL index now surface recent model quickstarts as follow-up links for new model posts.
 - README now links the maintenance, contribution, and security resources.

@@ -53,6 +53,7 @@ These examples match the latest model and repo maintenance work. Use the focused
 
 | Model | Best for | Start here |
 | --- | --- | --- |
+| `seedream-5.0-pro` | Dense layouts, multilingual text, product visuals, and precise image edits | [PoyoAPI/seedream-5-0-pro-api](https://github.com/PoyoAPI/seedream-5-0-pro-api) ([model page](https://poyo.ai/models/seedream-5-0-pro)) |
 | `seedance-2-mini` | Lower-cost ByteDance video drafts and fast direction tests | [PoyoAPI/seedance-2-mini-api](https://github.com/PoyoAPI/seedance-2-mini-api) ([model page](https://poyo.ai/models/seedance-2-mini)) |
 | `wan2.2-text-to-video-fast` | Low-cost Wan text-to-video and guided image-to-video drafts | [PoyoAPI/wan-2-2-fast-api](https://github.com/PoyoAPI/wan-2-2-fast-api) ([model page](https://poyo.ai/models/wan-2-2-fast)) |
 | `hailuo-2.3` | MiniMax realistic motion and first-frame guided video drafts | [PoyoAPI/hailuo-2-3-api](https://github.com/PoyoAPI/hailuo-2-3-api) ([model page](https://poyo.ai/models/hailuo-2-3)) |
@@ -148,6 +149,7 @@ Use this repo as the main integration hub. If you are searching for a single mod
 | Image | [PoyoAPI/grok-imagine-image-quality-api](https://github.com/PoyoAPI/grok-imagine-image-quality-api) ([model page](https://poyo.ai/models/grok-imagine-image-quality)) | Grok Imagine Image Quality photorealistic image drafts |
 | Image | [PoyoAPI/flux-2-api](https://github.com/PoyoAPI/flux-2-api) ([model page](https://poyo.ai/models/flux-2)) | FLUX.2 pro and flex image generation and editing workflows |
 | Image | [PoyoAPI/flux-kontext-api](https://github.com/PoyoAPI/flux-kontext-api) ([model page](https://poyo.ai/models/flux-kontext)) | Flux Kontext scene-preserving image generation and editing workflows |
+| Image | [PoyoAPI/seedream-5-0-pro-api](https://github.com/PoyoAPI/seedream-5-0-pro-api) ([model page](https://poyo.ai/models/seedream-5-0-pro)) | Seedream 5.0 Pro structured image generation and precise editing workflows |
 | Image | [PoyoAPI/seedream-5-0-lite-api](https://github.com/PoyoAPI/seedream-5-0-lite-api) ([model page](https://poyo.ai/models/seedream-5-0-lite-api)) | Seedream 5.0 Lite fast image generation and edit drafts |
 | Image | [PoyoAPI/seedream-4-5-api](https://github.com/PoyoAPI/seedream-4-5-api) ([model page](https://poyo.ai/models/seedream-4-5-api)) | Seedream 4.5 generation and edit drafts |
 | Image | [PoyoAPI/gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api) | GPT Image 2 generation and editing |
