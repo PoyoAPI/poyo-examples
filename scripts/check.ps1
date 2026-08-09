@@ -256,6 +256,9 @@ function Test-SecretScan {
 
 Test-MarkdownLinks
 Test-NodeSyntax
+Write-Step "Checking featured model catalog"
+& node (Join-Path $Root "scripts/check-model-catalog.mjs")
+if ($LASTEXITCODE -ne 0) { throw "Model catalog check failed" }
 Test-PythonSyntax
 Test-TypeScriptSyntax
 Test-NoKeyBehavior

@@ -51,6 +51,8 @@ Never expose a PoYo API key in browser code, mobile apps, public repositories, s
 
 These examples match the latest model and repo maintenance work. Use the focused repos when you want the smallest standalone project for one model.
 
+Machine-readable discovery: [models/catalog.json](models/catalog.json) ? [llms.txt](llms.txt) ? [maintenance policy](docs/model-maintenance.md)
+
 | Model | Best for | Start here |
 | --- | --- | --- |
 | `seedance-2.5` | 4-30 second controllable video with up to 50 multimodal references | [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) ([model page](https://poyo.ai/models/seedance-2-5)) |
@@ -257,6 +259,7 @@ Content-Type: application/json
 - Latest release: [v0.1.0](https://github.com/PoyoAPI/poyo-examples/releases/tag/v0.1.0).
 - Changelog: [CHANGELOG.md](CHANGELOG.md).
 - Local checks: `make check` or `pwsh -NoLogo -NoProfile -File scripts/check.ps1`; on Windows PowerShell, use `powershell -NoLogo -NoProfile -File scripts/check.ps1`.
+- Featured model freshness: `node scripts/check-model-catalog.mjs --network`; a scheduled workflow rechecks canonical URLs and 45-day verification dates every Monday.
 - Contributions: [CONTRIBUTING.md](CONTRIBUTING.md).
 - Security reports: [SECURITY.md](SECURITY.md).
 - Issues: [choose a template](https://github.com/PoyoAPI/poyo-examples/issues/new/choose), [bug report](https://github.com/PoyoAPI/poyo-examples/issues/new?template=bug_report.md), or [example request](https://github.com/PoyoAPI/poyo-examples/issues/new?template=example_request.md).

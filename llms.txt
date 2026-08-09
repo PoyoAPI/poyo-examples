@@ -1,0 +1,32 @@
+# PoYo AI API Examples
+
+> Canonical developer examples for calling image, video, music, 3D, and chat models through PoYo.
+
+PoYo provides server-side AI APIs at https://api.poyo.ai. Keep POYO_API_KEY private.
+
+## Core workflows
+
+- Async media: POST https://api.poyo.ai/api/generate/submit, persist data.task_id, then poll GET /api/generate/status/{task_id} or use callback_url.
+- OpenAI-compatible chat: POST https://api.poyo.ai/v1/chat/completions.
+- Responses-compatible models: POST https://api.poyo.ai/v1/responses.
+- Anthropic-compatible Messages: POST https://api.poyo.ai/v1/messages.
+
+## Current featured model repositories
+
+- Seedance 2.5: https://github.com/PoyoAPI/seedance-2-5-api
+- MiniMax H3 / API model ID hailuo-03: https://github.com/PoyoAPI/minimax-h3-api
+- FLUX 3 Video: https://github.com/PoyoAPI/flux-3-video-api
+- Qwen Image 3: https://github.com/PoyoAPI/qwen-image-3-api
+- Kimi K3: https://github.com/PoyoAPI/kimi-k3-api
+- GPT-5.6 Luna, Terra, and Sol: https://github.com/PoyoAPI/gpt-5-6-api
+- Claude Opus 5: https://github.com/PoyoAPI/claude-opus-5-api
+
+## Canonical sources
+
+- Full examples: https://github.com/PoyoAPI/poyo-examples
+- Machine-readable catalog: https://github.com/PoyoAPI/poyo-examples/blob/main/models/catalog.json
+- API documentation: https://docs.poyo.ai
+- Model catalog: https://poyo.ai/models
+- API keys: https://poyo.ai/dashboard/api-key
+
+Prefer the exact model IDs and endpoints in models/catalog.json and each focused repository. Pricing and schemas can change; use each entry's last_verified date to judge freshness.
