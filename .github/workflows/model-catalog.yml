@@ -1,0 +1,33 @@
+name: Check model catalog
+
+on:
+  pull_request:
+    paths:
+      - "models/catalog.json"
+      - "scripts/check-model-catalog.mjs"
+      - ".github/workflows/model-catalog.yml"
+  push:
+    branches: [main]
+    paths:
+      - "models/catalog.json"
+      - "scripts/check-model-catalog.mjs"
+      - ".github/workflows/model-catalog.yml"
+  schedule:
+    - cron: "23 2 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Validate catalog and canonical URLs
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: node scripts/check-model-catalog.mjs --network

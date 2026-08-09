@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "purpose": "Canonical machine-readable index for PoYo's currently featured model API repositories.",
+  "maintained_by": "PoyoAPI",
+  "last_updated": "2026-08-09",
+  "models": [
+    {
+      "name": "Seedance 2.5",
+      "slug": "seedance-2-5",
+      "modality": "video",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/seedance-2-5-api",
+      "model_page": "https://poyo.ai/models/seedance-2-5",
+      "documentation": "https://docs.poyo.ai/api-manual/video-series/seedance-2.5",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "seedance-2.5"
+      ],
+      "last_verified": "2026-08-09",
+      "search_terms": [
+        "Seedance 2.5 API",
+        "Seedance 2.5 Node.js"
+      ]
+    },
+    {
+      "name": "MiniMax H3",
+      "slug": "minimax-h3",
+      "modality": "video",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/minimax-h3-api",
+      "model_page": "https://poyo.ai/models/minimax-h3",
+      "documentation": "https://docs.poyo.ai/api-manual/video-series/hailuo-03",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "hailuo-03"
+      ],
+      "last_verified": "2026-08-09",
+      "search_terms": [
+        "MiniMax H3 API",
+        "Hailuo 03 API"
+      ]
+    },
+    {
+      "name": "FLUX 3 Video",
+      "slug": "flux-3-video",
+      "modality": "video",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/flux-3-video-api",
+      "model_page": "https://poyo.ai/models/flux-3",
+      "documentation": "https://docs.poyo.ai/api-manual/video-series/flux-3",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "flux-3/text-to-video",
+        "flux-3/image-to-video",
+        "flux-3/first-last-frame-to-video",
+        "flux-3/extend-video",
+        "flux-3/keyframes-to-video"
+      ],
+      "last_verified": "2026-08-09",
+      "search_terms": [
+        "FLUX 3 Video API",
+        "FLUX 3 API"
+      ]
+    },
+    {
+      "name": "Qwen Image 3",
+      "slug": "qwen-image-3",
+      "modality": "image",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/qwen-image-3-api",
+      "model_page": "https://poyo.ai/models/qwen-image-3",
+      "documentation": "https://docs.poyo.ai/api-manual/image-series/qwen-image-3",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "qwen-image-3",
+        "qwen-image-3-pro"
+      ],
+      "last_verified": "2026-08-09",
+      "search_terms": [
+        "Qwen Image 3 API",
+        "Qwen Image 3 Pro API"
+      ]
+    },
+    {
+      "name": "Kimi K3",
+      "slug": "kimi-k3",
+      "modality": "chat",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/kimi-k3-api",
+      "model_page": "https://poyo.ai/models/kimi-k3",
+      "documentation": "https://docs.poyo.ai/api-manual/chat-series/chat-completions",
+      "endpoint": "POST https://api.poyo.ai/v1/chat/completions",
+      "model_ids": [
+        "kimi-k3"
+      ],
+      "last_verified": "2026-08-09",
+      "search_terms": [
+        "Kimi K3 API",
+        "Kimi K3 OpenAI compatible API"
+      ]
+    },
+    {
+      "name": "GPT-5.6",
+      "slug": "gpt-5-6",
+      "modality": "chat",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/gpt-5-6-api",
+      "model_page": "https://poyo.ai/models/gpt-5-6",
+      "documentation": "https://docs.poyo.ai/api-manual/chat-series/responses",
+      "endpoint": "POST https://api.poyo.ai/v1/responses",
+      "model_ids": [
+        "gpt-5-6-luna",
+        "gpt-5-6-terra",
+        "gpt-5-6-sol"
+      ],
+      "last_verified": "2026-08-09",
+      "search_terms": [
+        "GPT-5.6 API",
+        "GPT-5.6 Responses API"
+      ]
+    },
+    {
+      "name": "Claude Opus 5",
+      "slug": "claude-opus-5",
+      "modality": "chat",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/claude-opus-5-api",
+      "model_page": "https://poyo.ai/models/claude-opus-5",
+      "documentation": "https://docs.poyo.ai/api-manual/chat-series/claude-messages",
+      "endpoint": "POST https://api.poyo.ai/v1/messages",
+      "model_ids": [
+        "claude-opus-5"
+      ],
+      "last_verified": "2026-08-09",
+      "search_terms": [
+        "Claude Opus 5 API",
+        "Claude Opus 5 Messages API"
+      ]
+    }
+  ]
+}

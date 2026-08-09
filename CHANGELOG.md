@@ -6,6 +6,7 @@ All notable public example changes are recorded here.
 
 ### Added
 
+- Machine-readable featured model catalog, `llms.txt`, a 45-day freshness policy, and weekly canonical-link validation.
 - Runnable focused repositories and cURL quickstarts for Seedance 2.5, MiniMax H3, FLUX 3 Video, Qwen Image 3, Kimi K3, GPT-5.6, and Claude Opus 5.
 - Exact production model IDs, current pricing snapshots, request limits, and GitHub Actions checks for both 2026 model batches.
 - Focused `seedream-5-0-pro-api` repository for structured image generation, reference-guided editing, polling, and webhook workflows.
