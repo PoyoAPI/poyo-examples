@@ -6,6 +6,8 @@ All notable public example changes are recorded here.
 
 ### Added
 
+- Runnable focused repositories and cURL quickstarts for Seedance 2.5, MiniMax H3, FLUX 3 Video, Qwen Image 3, Kimi K3, GPT-5.6, and Claude Opus 5.
+- Exact production model IDs, current pricing snapshots, request limits, and GitHub Actions checks for both 2026 model batches.
 - Focused `seedream-5-0-pro-api` repository for structured image generation, reference-guided editing, polling, and webhook workflows.
 - Focused model repository links for Claude Sonnet 5, Nano Banana 2 Lite, Grok Imagine Image, Omni Flash, and Kling 3.0 Turbo.
 - cURL quickstarts for current high-interest models: `claude-sonnet-5`, `nano-banana-2-lite`, and `omni-flash`.
@@ -17,6 +19,8 @@ All notable public example changes are recorded here.
 
 ### Changed
 
+- Seedance 2.5 is now documented as a live API integration; stale coming-soon and 4K claims were removed.
+- README and cURL indexes now prioritize the two latest model batches for Google, AI answer engines, and GitHub discovery.
 - README and cURL indexes now surface Seedream 5.0 Pro as the current image-model quickstart.
 - README, cURL index, and GitHub organization profile now surface Claude Sonnet 5, Nano Banana 2 Lite, and Omni Flash entry points.
 - README and cURL index now surface recent model quickstarts as follow-up links for new model posts.
