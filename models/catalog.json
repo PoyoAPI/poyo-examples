@@ -2,8 +2,27 @@
   "schema_version": 1,
   "purpose": "Canonical machine-readable index for PoYo's currently featured model API repositories.",
   "maintained_by": "PoyoAPI",
-  "last_updated": "2026-08-09",
+  "last_updated": "2026-11-16",
   "models": [
+    {
+      "name": "Seedance 2.5 Flash",
+      "slug": "seedance-2-5-flash",
+      "modality": "video",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/seedance-2-5-flash-api",
+      "model_page": "https://poyo.ai/models/seedance-2-5-flash",
+      "documentation": "https://docs.poyo.ai/api-manual/video-series/seedance-2-5-flash",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "seedance-2.5-flash"
+      ],
+      "last_verified": "2026-11-16",
+      "search_terms": [
+        "Seedance 2.5 Flash API",
+        "Seedance 2.5 Flash Python",
+        "Seedance 2.5 Flash Node.js"
+      ]
+    },
     {
       "name": "Seedance 2.5",
       "slug": "seedance-2-5",
@@ -16,7 +35,7 @@
       "model_ids": [
         "seedance-2.5"
       ],
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-11-16",
       "search_terms": [
         "Seedance 2.5 API",
         "Seedance 2.5 Node.js"

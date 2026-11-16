@@ -55,6 +55,7 @@ Machine-readable discovery: [models/catalog.json](models/catalog.json) ? [llms.t
 
 | Model | Best for | Start here |
 | --- | --- | --- |
+| `seedance-2.5-flash` | Faster, lower-cost 4-30 second 480p/720p video with synchronized audio | [PoyoAPI/seedance-2-5-flash-api](https://github.com/PoyoAPI/seedance-2-5-flash-api) ([model page](https://poyo.ai/models/seedance-2-5-flash)) |
 | `seedance-2.5` | 4-30 second controllable video with up to 50 multimodal references | [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) ([model page](https://poyo.ai/models/seedance-2-5)) |
 | `hailuo-03` (MiniMax H3) | 2K video, first/last frames, and reference-driven generation | [PoyoAPI/minimax-h3-api](https://github.com/PoyoAPI/minimax-h3-api) ([model page](https://poyo.ai/models/minimax-h3)) |
 | `flux-3/text-to-video` | FLUX 3 generation, extension, and keyframe-directed video | [PoyoAPI/flux-3-video-api](https://github.com/PoyoAPI/flux-3-video-api) ([model page](https://poyo.ai/models/flux-3)) |

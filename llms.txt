@@ -13,6 +13,7 @@ PoYo provides server-side AI APIs at https://api.poyo.ai. Keep POYO_API_KEY priv
 
 ## Current featured model repositories
 
+- Seedance 2.5 Flash: https://github.com/PoyoAPI/seedance-2-5-flash-api
 - Seedance 2.5: https://github.com/PoyoAPI/seedance-2-5-api
 - MiniMax H3 / API model ID hailuo-03: https://github.com/PoyoAPI/minimax-h3-api
 - FLUX 3 Video: https://github.com/PoyoAPI/flux-3-video-api
