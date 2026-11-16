@@ -53,7 +53,7 @@
       "model_ids": [
         "hailuo-03"
       ],
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-11-16",
       "search_terms": [
         "MiniMax H3 API",
         "Hailuo 03 API"
@@ -75,7 +75,7 @@
         "flux-3/extend-video",
         "flux-3/keyframes-to-video"
       ],
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-11-16",
       "search_terms": [
         "FLUX 3 Video API",
         "FLUX 3 API"
@@ -94,7 +94,7 @@
         "qwen-image-3",
         "qwen-image-3-pro"
       ],
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-11-16",
       "search_terms": [
         "Qwen Image 3 API",
         "Qwen Image 3 Pro API"
@@ -112,7 +112,7 @@
       "model_ids": [
         "kimi-k3"
       ],
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-11-16",
       "search_terms": [
         "Kimi K3 API",
         "Kimi K3 OpenAI compatible API"
@@ -132,7 +132,7 @@
         "gpt-5-6-terra",
         "gpt-5-6-sol"
       ],
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-11-16",
       "search_terms": [
         "GPT-5.6 API",
         "GPT-5.6 Responses API"
@@ -150,7 +150,7 @@
       "model_ids": [
         "claude-opus-5"
       ],
-      "last_verified": "2026-08-09",
+      "last_verified": "2026-11-16",
       "search_terms": [
         "Claude Opus 5 API",
         "Claude Opus 5 Messages API"
