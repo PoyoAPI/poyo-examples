@@ -18,5 +18,5 @@ curl -X POST "https://api.poyo.ai/api/generate/submit" \
   }'
 ```
 
-Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [focused repository](https://github.com/PoyoAPI/seedance-2-5-api) for reference limits, pricing, Node.js polling, and production notes.
+Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [focused repository](https://github.com/PoyoAPI/Seedance-2.5-API) for reference limits, pricing, Node.js polling, and production notes.
 

@@ -17,5 +17,5 @@ curl -X POST "https://api.poyo.ai/api/generate/submit" \
   }'
 ```
 
-Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [MiniMax H3 focused repository](https://github.com/PoyoAPI/minimax-h3-api) for first/last-frame and reference rules.
+Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [MiniMax H3 focused repository](https://github.com/PoyoAPI/MiniMax-H3-API) for first/last-frame and reference rules.
 

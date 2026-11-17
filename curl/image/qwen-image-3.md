@@ -19,5 +19,5 @@ curl -X POST "https://api.poyo.ai/api/generate/submit" \
   }'
 ```
 
-Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [Qwen Image 3 focused repository](https://github.com/PoyoAPI/qwen-image-3-api) for editing inputs and pricing.
+Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [Qwen Image 3 focused repository](https://github.com/PoyoAPI/Qwen-Image-3-API) for editing inputs and pricing.
 

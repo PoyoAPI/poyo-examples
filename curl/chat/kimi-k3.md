@@ -17,5 +17,5 @@ curl -X POST "https://api.poyo.ai/v1/chat/completions" \
   }'
 ```
 
-See the [Kimi K3 focused repository](https://github.com/PoyoAPI/kimi-k3-api) for Node.js and production guidance.
+See the [Kimi K3 focused repository](https://github.com/PoyoAPI/Kimi-K3-API) for Node.js and production guidance.
 

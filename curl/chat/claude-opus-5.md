@@ -16,5 +16,5 @@ curl -X POST "https://api.poyo.ai/v1/messages" \
   }'
 ```
 
-See the [Claude Opus 5 focused repository](https://github.com/PoyoAPI/claude-opus-5-api) for Node.js and production guidance.
+See the [Claude Opus 5 focused repository](https://github.com/PoyoAPI/Claude-Opus-5-API) for Node.js and production guidance.
 

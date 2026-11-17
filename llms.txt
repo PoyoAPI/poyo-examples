@@ -13,14 +13,14 @@ PoYo provides server-side AI APIs at https://api.poyo.ai. Keep POYO_API_KEY priv
 
 ## Current featured model repositories
 
-- Seedance 2.5 Flash: https://github.com/PoyoAPI/seedance-2-5-flash-api
-- Seedance 2.5: https://github.com/PoyoAPI/seedance-2-5-api
-- MiniMax H3 / API model ID hailuo-03: https://github.com/PoyoAPI/minimax-h3-api
-- FLUX 3 Video: https://github.com/PoyoAPI/flux-3-video-api
-- Qwen Image 3: https://github.com/PoyoAPI/qwen-image-3-api
-- Kimi K3: https://github.com/PoyoAPI/kimi-k3-api
-- GPT-5.6 Luna, Terra, and Sol: https://github.com/PoyoAPI/gpt-5-6-api
-- Claude Opus 5: https://github.com/PoyoAPI/claude-opus-5-api
+- Seedance 2.5 Flash: https://github.com/PoyoAPI/Seedance-2.5-Flash-API
+- Seedance 2.5: https://github.com/PoyoAPI/Seedance-2.5-API
+- MiniMax H3 / API model ID hailuo-03: https://github.com/PoyoAPI/MiniMax-H3-API
+- FLUX 3 Video: https://github.com/PoyoAPI/FLUX-3-Video-API
+- Qwen Image 3: https://github.com/PoyoAPI/Qwen-Image-3-API
+- Kimi K3: https://github.com/PoyoAPI/Kimi-K3-API
+- GPT-5.6 Luna, Terra, and Sol: https://github.com/PoyoAPI/GPT-5.6-API
+- Claude Opus 5: https://github.com/PoyoAPI/Claude-Opus-5-API
 
 ## Canonical sources
 

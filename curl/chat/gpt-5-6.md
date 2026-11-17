@@ -14,5 +14,5 @@ curl -X POST "https://api.poyo.ai/v1/responses" \
   }'
 ```
 
-See the [GPT-5.6 focused repository](https://github.com/PoyoAPI/gpt-5-6-api) for all three model IDs and their pricing tiers.
+See the [GPT-5.6 focused repository](https://github.com/PoyoAPI/GPT-5.6-API) for all three model IDs and their pricing tiers.
 

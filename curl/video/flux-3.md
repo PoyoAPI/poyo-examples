@@ -18,5 +18,5 @@ curl -X POST "https://api.poyo.ai/api/generate/submit" \
   }'
 ```
 
-Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [FLUX 3 Video focused repository](https://github.com/PoyoAPI/flux-3-video-api) for all five workflow IDs.
+Store `data.task_id`, then call `GET /api/generate/status/{task_id}`. See the [FLUX 3 Video focused repository](https://github.com/PoyoAPI/FLUX-3-Video-API) for all five workflow IDs.
 

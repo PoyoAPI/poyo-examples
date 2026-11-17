@@ -55,27 +55,27 @@ Machine-readable discovery: [models/catalog.json](models/catalog.json) ? [llms.t
 
 | Model | Best for | Start here |
 | --- | --- | --- |
-| `seedance-2.5-flash` | Faster, lower-cost 4-30 second 480p/720p video with synchronized audio | [PoyoAPI/seedance-2-5-flash-api](https://github.com/PoyoAPI/seedance-2-5-flash-api) ([model page](https://poyo.ai/models/seedance-2-5-flash)) |
-| `seedance-2.5` | 4-30 second controllable video with up to 50 multimodal references | [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) ([model page](https://poyo.ai/models/seedance-2-5)) |
-| `hailuo-03` (MiniMax H3) | 2K video, first/last frames, and reference-driven generation | [PoyoAPI/minimax-h3-api](https://github.com/PoyoAPI/minimax-h3-api) ([model page](https://poyo.ai/models/minimax-h3)) |
-| `flux-3/text-to-video` | FLUX 3 generation, extension, and keyframe-directed video | [PoyoAPI/flux-3-video-api](https://github.com/PoyoAPI/flux-3-video-api) ([model page](https://poyo.ai/models/flux-3)) |
-| `qwen-image-3` | 1K/2K image generation and multi-image editing | [PoyoAPI/qwen-image-3-api](https://github.com/PoyoAPI/qwen-image-3-api) ([model page](https://poyo.ai/models/qwen-image-3)) |
-| `kimi-k3` | Long-context chat, coding, and agent planning | [PoyoAPI/kimi-k3-api](https://github.com/PoyoAPI/kimi-k3-api) ([model page](https://poyo.ai/models/kimi-k3)) |
-| `gpt-5-6-luna` / `terra` / `sol` | Responses API workloads across three capability and cost tiers | [PoyoAPI/gpt-5-6-api](https://github.com/PoyoAPI/gpt-5-6-api) ([model page](https://poyo.ai/models/gpt-5-6)) |
-| `claude-opus-5` | Complex reasoning, research, and architecture review | [PoyoAPI/claude-opus-5-api](https://github.com/PoyoAPI/claude-opus-5-api) ([model page](https://poyo.ai/models/claude-opus-5)) |
-| `seedream-5.0-pro` | Dense layouts, multilingual text, product visuals, and precise image edits | [PoyoAPI/seedream-5-0-pro-api](https://github.com/PoyoAPI/seedream-5-0-pro-api) ([model page](https://poyo.ai/models/seedream-5-0-pro)) |
-| `seedance-2-mini` | Lower-cost ByteDance video drafts and fast direction tests | [PoyoAPI/seedance-2-mini-api](https://github.com/PoyoAPI/seedance-2-mini-api) ([model page](https://poyo.ai/models/seedance-2-mini)) |
-| `wan2.2-text-to-video-fast` | Low-cost Wan text-to-video and guided image-to-video drafts | [PoyoAPI/wan-2-2-fast-api](https://github.com/PoyoAPI/wan-2-2-fast-api) ([model page](https://poyo.ai/models/wan-2-2-fast)) |
-| `hailuo-2.3` | MiniMax realistic motion and first-frame guided video drafts | [PoyoAPI/hailuo-2-3-api](https://github.com/PoyoAPI/hailuo-2-3-api) ([model page](https://poyo.ai/models/hailuo-2-3)) |
-| `kling-avatar-2.0/standard` | Audio-driven talking avatar and presenter videos | [PoyoAPI/kling-avatar-2-0-api](https://github.com/PoyoAPI/kling-avatar-2-0-api) ([model page](https://poyo.ai/models/kling-avatar-2-0)) |
-| `flux-kontext-pro` | Scene-preserving image generation and editing workflows | [PoyoAPI/flux-kontext-api](https://github.com/PoyoAPI/flux-kontext-api) ([model page](https://poyo.ai/models/flux-kontext)) |
-| `tripo3d-h3.1-text-to-3d` | High-detail text, image, and multiview 3D asset drafts | [PoyoAPI/tripo-h31-3d-api](https://github.com/PoyoAPI/tripo-h31-3d-api) ([model page](https://poyo.ai/models/tripo-h31-3d)) |
-| `veo3.1-fast-official` | Fast Veo 3.1 video drafts with native audio options | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api) |
-| `gemini-3-flash-preview` | Coding, agent, and long-context chat workflows | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) |
-| `deepseek-v4-flash` | Cost-aware coding, reasoning, and assistant workflows | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) |
-| `grok-imagine-video-1.5` | Image-to-video drafts for product and creator tools | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
-| `elevenlabs-v3-tts` | Expressive narration, dialogue, and voiceover workflows | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) |
-| `minimax-music-2.6` | Music drafts for creator tools and product videos | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
+| `seedance-2.5-flash` | Faster, lower-cost 4-30 second 480p/720p video with synchronized audio | [PoyoAPI/seedance-2-5-flash-api](https://github.com/PoyoAPI/Seedance-2.5-Flash-API) ([model page](https://poyo.ai/models/seedance-2-5-flash)) |
+| `seedance-2.5` | 4-30 second controllable video with up to 50 multimodal references | [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/Seedance-2.5-API) ([model page](https://poyo.ai/models/seedance-2-5)) |
+| `hailuo-03` (MiniMax H3) | 2K video, first/last frames, and reference-driven generation | [PoyoAPI/minimax-h3-api](https://github.com/PoyoAPI/MiniMax-H3-API) ([model page](https://poyo.ai/models/minimax-h3)) |
+| `flux-3/text-to-video` | FLUX 3 generation, extension, and keyframe-directed video | [PoyoAPI/flux-3-video-api](https://github.com/PoyoAPI/FLUX-3-Video-API) ([model page](https://poyo.ai/models/flux-3)) |
+| `qwen-image-3` | 1K/2K image generation and multi-image editing | [PoyoAPI/qwen-image-3-api](https://github.com/PoyoAPI/Qwen-Image-3-API) ([model page](https://poyo.ai/models/qwen-image-3)) |
+| `kimi-k3` | Long-context chat, coding, and agent planning | [PoyoAPI/kimi-k3-api](https://github.com/PoyoAPI/Kimi-K3-API) ([model page](https://poyo.ai/models/kimi-k3)) |
+| `gpt-5-6-luna` / `terra` / `sol` | Responses API workloads across three capability and cost tiers | [PoyoAPI/gpt-5-6-api](https://github.com/PoyoAPI/GPT-5.6-API) ([model page](https://poyo.ai/models/gpt-5-6)) |
+| `claude-opus-5` | Complex reasoning, research, and architecture review | [PoyoAPI/claude-opus-5-api](https://github.com/PoyoAPI/Claude-Opus-5-API) ([model page](https://poyo.ai/models/claude-opus-5)) |
+| `seedream-5.0-pro` | Dense layouts, multilingual text, product visuals, and precise image edits | [PoyoAPI/seedream-5-0-pro-api](https://github.com/PoyoAPI/Seedream-5.0-Pro-API) ([model page](https://poyo.ai/models/seedream-5-0-pro)) |
+| `seedance-2-mini` | Lower-cost ByteDance video drafts and fast direction tests | [PoyoAPI/seedance-2-mini-api](https://github.com/PoyoAPI/Seedance-2.0-Mini-API) ([model page](https://poyo.ai/models/seedance-2-mini)) |
+| `wan2.2-text-to-video-fast` | Low-cost Wan text-to-video and guided image-to-video drafts | [PoyoAPI/wan-2-2-fast-api](https://github.com/PoyoAPI/Wan-2.2-Fast-API) ([model page](https://poyo.ai/models/wan-2-2-fast)) |
+| `hailuo-2.3` | MiniMax realistic motion and first-frame guided video drafts | [PoyoAPI/hailuo-2-3-api](https://github.com/PoyoAPI/Hailuo-2.3-API) ([model page](https://poyo.ai/models/hailuo-2-3)) |
+| `kling-avatar-2.0/standard` | Audio-driven talking avatar and presenter videos | [PoyoAPI/kling-avatar-2-0-api](https://github.com/PoyoAPI/Kling-Avatar-2.0-API) ([model page](https://poyo.ai/models/kling-avatar-2-0)) |
+| `flux-kontext-pro` | Scene-preserving image generation and editing workflows | [PoyoAPI/flux-kontext-api](https://github.com/PoyoAPI/Flux-Kontext-API) ([model page](https://poyo.ai/models/flux-kontext)) |
+| `tripo3d-h3.1-text-to-3d` | High-detail text, image, and multiview 3D asset drafts | [PoyoAPI/tripo-h31-3d-api](https://github.com/PoyoAPI/Tripo3D-H3.1-API) ([model page](https://poyo.ai/models/tripo-h31-3d)) |
+| `veo3.1-fast-official` | Fast Veo 3.1 video drafts with native audio options | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/Veo-3.1-API) |
+| `gemini-3-flash-preview` | Coding, agent, and long-context chat workflows | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/Gemini-3-API) |
+| `deepseek-v4-flash` | Cost-aware coding, reasoning, and assistant workflows | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/DeepSeek-V4-API) |
+| `grok-imagine-video-1.5` | Image-to-video drafts for product and creator tools | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/Grok-Imagine-Video-1.5-API) |
+| `elevenlabs-v3-tts` | Expressive narration, dialogue, and voiceover workflows | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/ElevenLabs-V3-TTS-API) |
+| `minimax-music-2.6` | Music drafts for creator tools and product videos | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/MiniMax-Music-2.6-API) |
 | `claude-sonnet-5` | Agentic coding, planning, and long-context chat workflows | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md) |
 | `nano-banana-2-lite` | Fast lower-cost image drafts and high-throughput visual tests | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md) |
 | `omni-flash` | Short video drafts from prompts, images, or video references | [`curl/video/omni-flash.md`](curl/video/omni-flash.md) |
@@ -93,11 +93,11 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Goal | Start here |
 | --- | --- |
-| Generate or edit images | [Qwen Image 3 repo](https://github.com/PoyoAPI/qwen-image-3-api), [Flux Kontext repo](https://github.com/PoyoAPI/flux-kontext-api), [`curl/image/qwen-image-3.md`](curl/image/qwen-image-3.md), [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md) |
-| Generate short videos | [Seedance 2.5 repo](https://github.com/PoyoAPI/seedance-2-5-api), [MiniMax H3 repo](https://github.com/PoyoAPI/minimax-h3-api), [FLUX 3 Video repo](https://github.com/PoyoAPI/flux-3-video-api), [`curl/video/seedance-2-5.md`](curl/video/seedance-2-5.md), [`curl/video/hailuo-03.md`](curl/video/hailuo-03.md), [`curl/video/flux-3.md`](curl/video/flux-3.md) |
+| Generate or edit images | [Qwen Image 3 repo](https://github.com/PoyoAPI/Qwen-Image-3-API), [Flux Kontext repo](https://github.com/PoyoAPI/Flux-Kontext-API), [`curl/image/qwen-image-3.md`](curl/image/qwen-image-3.md), [`curl/image/gpt-image-2.md`](curl/image/gpt-image-2.md) |
+| Generate short videos | [Seedance 2.5 repo](https://github.com/PoyoAPI/Seedance-2.5-API), [MiniMax H3 repo](https://github.com/PoyoAPI/MiniMax-H3-API), [FLUX 3 Video repo](https://github.com/PoyoAPI/FLUX-3-Video-API), [`curl/video/seedance-2-5.md`](curl/video/seedance-2-5.md), [`curl/video/hailuo-03.md`](curl/video/hailuo-03.md), [`curl/video/flux-3.md`](curl/video/flux-3.md) |
 | Try a high-interest video quickstart | [`curl/video/sora-2.md`](curl/video/sora-2.md) |
-| Build chat and agent workflows | [Kimi K3 repo](https://github.com/PoyoAPI/kimi-k3-api), [GPT-5.6 repo](https://github.com/PoyoAPI/gpt-5-6-api), [Claude Opus 5 repo](https://github.com/PoyoAPI/claude-opus-5-api), [`curl/chat/kimi-k3.md`](curl/chat/kimi-k3.md), [`curl/chat/gpt-5-6.md`](curl/chat/gpt-5-6.md), [`curl/chat/claude-opus-5.md`](curl/chat/claude-opus-5.md) |
-| Generate speech or music | [ElevenLabs v3 TTS repo](https://github.com/PoyoAPI/elevenlabs-v3-tts-api), [MiniMax Music 2.6 repo](https://github.com/PoyoAPI/minimax-music-2-6-api), [`curl/music/generate-music.md`](curl/music/generate-music.md) |
+| Build chat and agent workflows | [Kimi K3 repo](https://github.com/PoyoAPI/Kimi-K3-API), [GPT-5.6 repo](https://github.com/PoyoAPI/GPT-5.6-API), [Claude Opus 5 repo](https://github.com/PoyoAPI/Claude-Opus-5-API), [`curl/chat/kimi-k3.md`](curl/chat/kimi-k3.md), [`curl/chat/gpt-5-6.md`](curl/chat/gpt-5-6.md), [`curl/chat/claude-opus-5.md`](curl/chat/claude-opus-5.md) |
+| Generate speech or music | [ElevenLabs v3 TTS repo](https://github.com/PoyoAPI/ElevenLabs-V3-TTS-API), [MiniMax Music 2.6 repo](https://github.com/PoyoAPI/MiniMax-Music-2.6-API), [`curl/music/generate-music.md`](curl/music/generate-music.md) |
 | Keep API keys out of browser code | [`nextjs/gpt-image-2-route/`](nextjs/gpt-image-2-route/) |
 | Receive production callbacks | [`webhooks/`](webhooks/) |
 | Build from product recipes | [`recipes/`](recipes/) |
@@ -107,12 +107,12 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Model | Capability | Example |
 | --- | --- | --- |
-| `veo3.1-fast-official` | Fast Veo 3.1 video generation | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api) |
-| `gemini-3-flash-preview` | Chat, coding, and agent workflows | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) |
-| `deepseek-v4-flash` | Cost-aware chat and coding workflows | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) |
-| `grok-imagine-video-1.5` | Image-to-video draft generation | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) |
-| `elevenlabs-v3-tts` | Text-to-speech and voiceover generation | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) |
-| `minimax-music-2.6` | Music generation for creator workflows | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) |
+| `veo3.1-fast-official` | Fast Veo 3.1 video generation | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/Veo-3.1-API) |
+| `gemini-3-flash-preview` | Chat, coding, and agent workflows | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/Gemini-3-API) |
+| `deepseek-v4-flash` | Cost-aware chat and coding workflows | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/DeepSeek-V4-API) |
+| `grok-imagine-video-1.5` | Image-to-video draft generation | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/Grok-Imagine-Video-1.5-API) |
+| `elevenlabs-v3-tts` | Text-to-speech and voiceover generation | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/ElevenLabs-V3-TTS-API) |
+| `minimax-music-2.6` | Music generation for creator workflows | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/MiniMax-Music-2.6-API) |
 | `claude-sonnet-5` | Agentic chat, coding, planning, and long-context work | [`curl/chat/claude-sonnet-5.md`](curl/chat/claude-sonnet-5.md) |
 | `nano-banana-2-lite` | Fast lower-cost image generation and edits | [`curl/image/nano-banana-2-lite.md`](curl/image/nano-banana-2-lite.md) |
 | `omni-flash` | Prompt, image, or video guided video drafts | [`curl/video/omni-flash.md`](curl/video/omni-flash.md) |
@@ -130,13 +130,13 @@ PoYo uses credit-based pricing, and failed generation tasks are not charged cred
 
 | Model | Modality | Workflow | cURL | Node.js | Python | Next.js | Webhook | Sample Output |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| `seedance-2.5` | Video | Async task | [cURL](curl/video/seedance-2-5.md) | [Focused repo](https://github.com/PoyoAPI/seedance-2-5-api) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/seedance-2-5) |
-| `hailuo-03` | Video | Async task | [cURL](curl/video/hailuo-03.md) | [Focused repo](https://github.com/PoyoAPI/minimax-h3-api) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/minimax-h3) |
-| `flux-3/text-to-video` | Video | Async task | [cURL](curl/video/flux-3.md) | [Focused repo](https://github.com/PoyoAPI/flux-3-video-api) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/flux-3) |
-| `qwen-image-3` | Image | Async task | [cURL](curl/image/qwen-image-3.md) | [Focused repo](https://github.com/PoyoAPI/qwen-image-3-api) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/qwen-image-3) |
-| `kimi-k3` | Chat | Sync response | [cURL](curl/chat/kimi-k3.md) | [Focused repo](https://github.com/PoyoAPI/kimi-k3-api) | - | - | - | [PoYo model page](https://poyo.ai/models/kimi-k3) |
-| `gpt-5-6-luna` | Chat | Responses API | [cURL](curl/chat/gpt-5-6.md) | [Focused repo](https://github.com/PoyoAPI/gpt-5-6-api) | - | - | - | [PoYo model page](https://poyo.ai/models/gpt-5-6) |
-| `claude-opus-5` | Chat | Messages API | [cURL](curl/chat/claude-opus-5.md) | [Focused repo](https://github.com/PoyoAPI/claude-opus-5-api) | - | - | - | [PoYo model page](https://poyo.ai/models/claude-opus-5) |
+| `seedance-2.5` | Video | Async task | [cURL](curl/video/seedance-2-5.md) | [Focused repo](https://github.com/PoyoAPI/Seedance-2.5-API) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/seedance-2-5) |
+| `hailuo-03` | Video | Async task | [cURL](curl/video/hailuo-03.md) | [Focused repo](https://github.com/PoyoAPI/MiniMax-H3-API) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/minimax-h3) |
+| `flux-3/text-to-video` | Video | Async task | [cURL](curl/video/flux-3.md) | [Focused repo](https://github.com/PoyoAPI/FLUX-3-Video-API) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/flux-3) |
+| `qwen-image-3` | Image | Async task | [cURL](curl/image/qwen-image-3.md) | [Focused repo](https://github.com/PoyoAPI/Qwen-Image-3-API) | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/qwen-image-3) |
+| `kimi-k3` | Chat | Sync response | [cURL](curl/chat/kimi-k3.md) | [Focused repo](https://github.com/PoyoAPI/Kimi-K3-API) | - | - | - | [PoYo model page](https://poyo.ai/models/kimi-k3) |
+| `gpt-5-6-luna` | Chat | Responses API | [cURL](curl/chat/gpt-5-6.md) | [Focused repo](https://github.com/PoyoAPI/GPT-5.6-API) | - | - | - | [PoYo model page](https://poyo.ai/models/gpt-5-6) |
+| `claude-opus-5` | Chat | Messages API | [cURL](curl/chat/claude-opus-5.md) | [Focused repo](https://github.com/PoyoAPI/Claude-Opus-5-API) | - | - | - | [PoYo model page](https://poyo.ai/models/claude-opus-5) |
 | `claude-sonnet-5` | Chat | Sync response | [cURL](curl/chat/claude-sonnet-5.md) | - | - | - | - | [PoYo model page](https://poyo.ai/models/claude-sonnet-5) |
 | `nano-banana-2-lite` | Image | Async task | [cURL](curl/image/nano-banana-2-lite.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/nano-banana-2-lite) |
 | `omni-flash` | Video | Async task | [cURL](curl/video/omni-flash.md) | - | - | - | [Receivers](webhooks/) | [PoYo model page](https://poyo.ai/models/omni-flash) |
@@ -156,53 +156,53 @@ Use this repo as the main integration hub. If you are searching for a single mod
 
 | Category | Model repo | Best for |
 | --- | --- | --- |
-| Chat | [PoyoAPI/kimi-k3-api](https://github.com/PoyoAPI/kimi-k3-api) ([model page](https://poyo.ai/models/kimi-k3)) | Kimi K3 long-context chat, coding, and agent workflows |
-| Chat | [PoyoAPI/gpt-5-6-api](https://github.com/PoyoAPI/gpt-5-6-api) ([model page](https://poyo.ai/models/gpt-5-6)) | GPT-5.6 Luna, Terra, and Sol Responses API workflows |
-| Chat | [PoyoAPI/claude-opus-5-api](https://github.com/PoyoAPI/claude-opus-5-api) ([model page](https://poyo.ai/models/claude-opus-5)) | Claude Opus 5 reasoning, research, and agent workflows |
-| Chat | [PoyoAPI/gpt-5-5-api](https://github.com/PoyoAPI/gpt-5-5-api) ([model page](https://poyo.ai/models/gpt-5-5)) | GPT-5.5 chat, coding, and agent workflows |
-| Chat | [PoyoAPI/claude-opus-4-8-api](https://github.com/PoyoAPI/claude-opus-4-8-api) ([model page](https://poyo.ai/models/claude-opus-4-8)) | Claude Opus 4.8 reasoning, coding, and agent workflows |
-| Chat | [PoyoAPI/gemini-3-5-flash-api](https://github.com/PoyoAPI/gemini-3-5-flash-api) ([model page](https://poyo.ai/models/gemini-3-5-flash)) | Gemini 3.5 Flash fast assistant and routing workflows |
-| Chat | [PoyoAPI/claude-4-5-api](https://github.com/PoyoAPI/claude-4-5-api) ([model page](https://poyo.ai/models/claude-4-5-api)) | Claude 4.5 Opus, Sonnet, and Haiku agent workflows |
-| Chat | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/gemini-3-api) | Gemini 3 chat, coding, and agent workflows |
-| Chat | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/deepseek-v4-api) | DeepSeek V4 Flash and Pro cost-aware assistant workflows |
-| Chat | [PoyoAPI/claude-sonnet-5-api](https://github.com/PoyoAPI/claude-sonnet-5-api) | Claude Sonnet 5 chat, coding, and agentic workflows |
-| Image | [PoyoAPI/qwen-image-3-api](https://github.com/PoyoAPI/qwen-image-3-api) ([model page](https://poyo.ai/models/qwen-image-3)) | Qwen Image 3 generation and multi-image editing |
-| Image | [PoyoAPI/grok-imagine-image-quality-api](https://github.com/PoyoAPI/grok-imagine-image-quality-api) ([model page](https://poyo.ai/models/grok-imagine-image-quality)) | Grok Imagine Image Quality photorealistic image drafts |
-| Image | [PoyoAPI/flux-2-api](https://github.com/PoyoAPI/flux-2-api) ([model page](https://poyo.ai/models/flux-2)) | FLUX.2 pro and flex image generation and editing workflows |
-| Image | [PoyoAPI/flux-kontext-api](https://github.com/PoyoAPI/flux-kontext-api) ([model page](https://poyo.ai/models/flux-kontext)) | Flux Kontext scene-preserving image generation and editing workflows |
-| Image | [PoyoAPI/seedream-5-0-pro-api](https://github.com/PoyoAPI/seedream-5-0-pro-api) ([model page](https://poyo.ai/models/seedream-5-0-pro)) | Seedream 5.0 Pro structured image generation and precise editing workflows |
-| Image | [PoyoAPI/seedream-5-0-lite-api](https://github.com/PoyoAPI/seedream-5-0-lite-api) ([model page](https://poyo.ai/models/seedream-5-0-lite-api)) | Seedream 5.0 Lite fast image generation and edit drafts |
-| Image | [PoyoAPI/seedream-4-5-api](https://github.com/PoyoAPI/seedream-4-5-api) ([model page](https://poyo.ai/models/seedream-4-5-api)) | Seedream 4.5 generation and edit drafts |
-| Image | [PoyoAPI/gpt-image-2-api](https://github.com/PoyoAPI/gpt-image-2-api) | GPT Image 2 generation and editing |
-| Image | [PoyoAPI/grok-imagine-image-api](https://github.com/PoyoAPI/grok-imagine-image-api) | Grok Imagine Image visual quality tests |
-| Image | [PoyoAPI/nano-banana-2-lite-api](https://github.com/PoyoAPI/nano-banana-2-lite-api) | Nano Banana 2 Lite lower-cost image drafts |
+| Chat | [PoyoAPI/kimi-k3-api](https://github.com/PoyoAPI/Kimi-K3-API) ([model page](https://poyo.ai/models/kimi-k3)) | Kimi K3 long-context chat, coding, and agent workflows |
+| Chat | [PoyoAPI/gpt-5-6-api](https://github.com/PoyoAPI/GPT-5.6-API) ([model page](https://poyo.ai/models/gpt-5-6)) | GPT-5.6 Luna, Terra, and Sol Responses API workflows |
+| Chat | [PoyoAPI/claude-opus-5-api](https://github.com/PoyoAPI/Claude-Opus-5-API) ([model page](https://poyo.ai/models/claude-opus-5)) | Claude Opus 5 reasoning, research, and agent workflows |
+| Chat | [PoyoAPI/gpt-5-5-api](https://github.com/PoyoAPI/GPT-5.5-API) ([model page](https://poyo.ai/models/gpt-5-5)) | GPT-5.5 chat, coding, and agent workflows |
+| Chat | [PoyoAPI/claude-opus-4-8-api](https://github.com/PoyoAPI/Claude-Opus-4.8-API) ([model page](https://poyo.ai/models/claude-opus-4-8)) | Claude Opus 4.8 reasoning, coding, and agent workflows |
+| Chat | [PoyoAPI/gemini-3-5-flash-api](https://github.com/PoyoAPI/Gemini-3.5-Flash-API) ([model page](https://poyo.ai/models/gemini-3-5-flash)) | Gemini 3.5 Flash fast assistant and routing workflows |
+| Chat | [PoyoAPI/claude-4-5-api](https://github.com/PoyoAPI/Claude-4.5-API) ([model page](https://poyo.ai/models/claude-4-5-api)) | Claude 4.5 Opus, Sonnet, and Haiku agent workflows |
+| Chat | [PoyoAPI/gemini-3-api](https://github.com/PoyoAPI/Gemini-3-API) | Gemini 3 chat, coding, and agent workflows |
+| Chat | [PoyoAPI/deepseek-v4-api](https://github.com/PoyoAPI/DeepSeek-V4-API) | DeepSeek V4 Flash and Pro cost-aware assistant workflows |
+| Chat | [PoyoAPI/claude-sonnet-5-api](https://github.com/PoyoAPI/Claude-Sonnet-5-API) | Claude Sonnet 5 chat, coding, and agentic workflows |
+| Image | [PoyoAPI/qwen-image-3-api](https://github.com/PoyoAPI/Qwen-Image-3-API) ([model page](https://poyo.ai/models/qwen-image-3)) | Qwen Image 3 generation and multi-image editing |
+| Image | [PoyoAPI/grok-imagine-image-quality-api](https://github.com/PoyoAPI/Grok-Imagine-Image-Quality-API) ([model page](https://poyo.ai/models/grok-imagine-image-quality)) | Grok Imagine Image Quality photorealistic image drafts |
+| Image | [PoyoAPI/flux-2-api](https://github.com/PoyoAPI/FLUX.2-API) ([model page](https://poyo.ai/models/flux-2)) | FLUX.2 pro and flex image generation and editing workflows |
+| Image | [PoyoAPI/flux-kontext-api](https://github.com/PoyoAPI/Flux-Kontext-API) ([model page](https://poyo.ai/models/flux-kontext)) | Flux Kontext scene-preserving image generation and editing workflows |
+| Image | [PoyoAPI/seedream-5-0-pro-api](https://github.com/PoyoAPI/Seedream-5.0-Pro-API) ([model page](https://poyo.ai/models/seedream-5-0-pro)) | Seedream 5.0 Pro structured image generation and precise editing workflows |
+| Image | [PoyoAPI/seedream-5-0-lite-api](https://github.com/PoyoAPI/Seedream-5.0-Lite-API) ([model page](https://poyo.ai/models/seedream-5-0-lite-api)) | Seedream 5.0 Lite fast image generation and edit drafts |
+| Image | [PoyoAPI/seedream-4-5-api](https://github.com/PoyoAPI/Seedream-4.5-API) ([model page](https://poyo.ai/models/seedream-4-5-api)) | Seedream 4.5 generation and edit drafts |
+| Image | [PoyoAPI/gpt-image-2-api](https://github.com/PoyoAPI/GPT-Image-2-API) | GPT Image 2 generation and editing |
+| Image | [PoyoAPI/grok-imagine-image-api](https://github.com/PoyoAPI/Grok-Imagine-Image-API) | Grok Imagine Image visual quality tests |
+| Image | [PoyoAPI/nano-banana-2-lite-api](https://github.com/PoyoAPI/Nano-Banana-2-Lite-API) | Nano Banana 2 Lite lower-cost image drafts |
 | Image | [PoyoAPI/nano-banana-2-api](https://github.com/PoyoAPI/nano-banana-2-api) | Nano Banana 2 generation and image edits |
-| Image | [PoyoAPI/nano-banana-pro-api](https://github.com/PoyoAPI/nano-banana-pro-api) | Nano Banana Pro higher-detail image workflows |
-| Video | [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/seedance-2-5-api) ([model page](https://poyo.ai/models/seedance-2-5)) | Seedance 2.5 4-30 second multimodal-reference video workflows |
-| Video | [PoyoAPI/minimax-h3-api](https://github.com/PoyoAPI/minimax-h3-api) ([model page](https://poyo.ai/models/minimax-h3)) | MiniMax H3 / Hailuo 03 2K video workflows |
-| Video | [PoyoAPI/flux-3-video-api](https://github.com/PoyoAPI/flux-3-video-api) ([model page](https://poyo.ai/models/flux-3)) | FLUX 3 generation, extension, and keyframe video workflows |
-| Video | [PoyoAPI/kling-3-api](https://github.com/PoyoAPI/kling-3-api) ([model page](https://poyo.ai/models/kling-3-api)) | Kling 3.0 standard, pro, and 4K video workflows |
-| Video | [PoyoAPI/seedance-2-mini-api](https://github.com/PoyoAPI/seedance-2-mini-api) ([model page](https://poyo.ai/models/seedance-2-mini)) | Seedance 2.0 Mini lower-cost video draft workflows |
-| Video | [PoyoAPI/wan-2-2-fast-api](https://github.com/PoyoAPI/wan-2-2-fast-api) ([model page](https://poyo.ai/models/wan-2-2-fast)) | Wan 2.2 Fast text-to-video and image-to-video draft loops |
-| Video | [PoyoAPI/hailuo-2-3-api](https://github.com/PoyoAPI/hailuo-2-3-api) ([model page](https://poyo.ai/models/hailuo-2-3)) | Hailuo 2.3 realistic motion and first-frame guided video drafts |
-| Video | [PoyoAPI/kling-avatar-2-0-api](https://github.com/PoyoAPI/kling-avatar-2-0-api) ([model page](https://poyo.ai/models/kling-avatar-2-0)) | Kling Avatar 2.0 audio-driven talking avatar workflows |
-| Video | [PoyoAPI/runway-gen-4-5-api](https://github.com/PoyoAPI/runway-gen-4-5-api) ([model page](https://poyo.ai/models/runway-gen-4-5)) | Runway Gen-4.5 cinematic text-to-video and image-to-video workflows |
-| Video | [PoyoAPI/kling-o3-api](https://github.com/PoyoAPI/kling-o3-api) ([model page](https://poyo.ai/models/kling-o3-api)) | Kling O3 standard, pro, and 4K video workflows |
-| Video | [PoyoAPI/wan-2-7-video-api](https://github.com/PoyoAPI/wan-2-7-video-api) ([model page](https://poyo.ai/models/wan-2-7-video)) | Wan 2.7 text, image, reference, and edit video workflows |
-| Video | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/veo-3-1-official-api) | Veo 3.1 Official fast, lite, and quality video workflows |
-| Video | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/grok-imagine-video-1-5-api) | Grok Imagine Video 1.5 image-to-video drafts |
-| Video | [PoyoAPI/omni-flash-api](https://github.com/PoyoAPI/omni-flash-api) | Omni Flash prompt, image, and video guided drafts |
-| Video | [PoyoAPI/kling-3-0-turbo-api](https://github.com/PoyoAPI/kling-3-0-turbo-api) | Kling 3.0 Turbo fast drafts and multi-shot storyboards |
-| Video | [PoyoAPI/seedance-2-api](https://github.com/PoyoAPI/seedance-2-api) | Seedance 2 video generation and fast drafts |
-| Video | [PoyoAPI/sora-2-official-api](https://github.com/PoyoAPI/sora-2-official-api) | Sora 2 Official video and reference-frame workflows |
-| Video | [PoyoAPI/happy-horse-api](https://github.com/PoyoAPI/happy-horse-api) | Happy Horse text-to-video and image-to-video workflows |
-| Music | [PoyoAPI/gemini-3-1-flash-tts-api](https://github.com/PoyoAPI/gemini-3-1-flash-tts-api) ([model page](https://poyo.ai/models/gemini-3-1-flash-tts)) | Gemini 3.1 Flash TTS voice and dialogue workflows |
-| Music | [PoyoAPI/elevenlabs-music-api](https://github.com/PoyoAPI/elevenlabs-music-api) ([model page](https://poyo.ai/models/elevenlabs-music)) | ElevenLabs Music prompt-based creator audio workflows |
-| Music | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/elevenlabs-v3-tts-api) | ElevenLabs v3 narration, dialogue, and voiceover workflows |
-| Music | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/minimax-music-2-6-api) | MiniMax Music 2.6 background music and creator audio drafts |
-| 3D | [PoyoAPI/hunyuan-3d-3-1-api](https://github.com/PoyoAPI/hunyuan-3d-3-1-api) ([model page](https://poyo.ai/models/hunyuan-3d-3-1)) | Hunyuan 3D 3.1 pro and rapid 3D asset workflows |
-| 3D | [PoyoAPI/tripo-h31-3d-api](https://github.com/PoyoAPI/tripo-h31-3d-api) ([model page](https://poyo.ai/models/tripo-h31-3d)) | Tripo3D H3.1 high-detail text, image, and multiview 3D asset workflows |
-| 3D | [PoyoAPI/meshy-6-3d-api](https://github.com/PoyoAPI/meshy-6-3d-api) ([model page](https://poyo.ai/models/meshy-6-3d)) | Meshy 6 text-to-3D, image-to-3D, and multi-image-to-3D workflows |
+| Image | [PoyoAPI/nano-banana-pro-api](https://github.com/PoyoAPI/Nano-Banana-Pro-API) | Nano Banana Pro higher-detail image workflows |
+| Video | [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/Seedance-2.5-API) ([model page](https://poyo.ai/models/seedance-2-5)) | Seedance 2.5 4-30 second multimodal-reference video workflows |
+| Video | [PoyoAPI/minimax-h3-api](https://github.com/PoyoAPI/MiniMax-H3-API) ([model page](https://poyo.ai/models/minimax-h3)) | MiniMax H3 / Hailuo 03 2K video workflows |
+| Video | [PoyoAPI/flux-3-video-api](https://github.com/PoyoAPI/FLUX-3-Video-API) ([model page](https://poyo.ai/models/flux-3)) | FLUX 3 generation, extension, and keyframe video workflows |
+| Video | [PoyoAPI/kling-3-api](https://github.com/PoyoAPI/Kling-3.0-API) ([model page](https://poyo.ai/models/kling-3-api)) | Kling 3.0 standard, pro, and 4K video workflows |
+| Video | [PoyoAPI/seedance-2-mini-api](https://github.com/PoyoAPI/Seedance-2.0-Mini-API) ([model page](https://poyo.ai/models/seedance-2-mini)) | Seedance 2.0 Mini lower-cost video draft workflows |
+| Video | [PoyoAPI/wan-2-2-fast-api](https://github.com/PoyoAPI/Wan-2.2-Fast-API) ([model page](https://poyo.ai/models/wan-2-2-fast)) | Wan 2.2 Fast text-to-video and image-to-video draft loops |
+| Video | [PoyoAPI/hailuo-2-3-api](https://github.com/PoyoAPI/Hailuo-2.3-API) ([model page](https://poyo.ai/models/hailuo-2-3)) | Hailuo 2.3 realistic motion and first-frame guided video drafts |
+| Video | [PoyoAPI/kling-avatar-2-0-api](https://github.com/PoyoAPI/Kling-Avatar-2.0-API) ([model page](https://poyo.ai/models/kling-avatar-2-0)) | Kling Avatar 2.0 audio-driven talking avatar workflows |
+| Video | [PoyoAPI/runway-gen-4-5-api](https://github.com/PoyoAPI/Runway-Gen-4.5-API) ([model page](https://poyo.ai/models/runway-gen-4-5)) | Runway Gen-4.5 cinematic text-to-video and image-to-video workflows |
+| Video | [PoyoAPI/kling-o3-api](https://github.com/PoyoAPI/Kling-O3-API) ([model page](https://poyo.ai/models/kling-o3-api)) | Kling O3 standard, pro, and 4K video workflows |
+| Video | [PoyoAPI/wan-2-7-video-api](https://github.com/PoyoAPI/Wan-2.7-Video-API) ([model page](https://poyo.ai/models/wan-2-7-video)) | Wan 2.7 text, image, reference, and edit video workflows |
+| Video | [PoyoAPI/veo-3-1-official-api](https://github.com/PoyoAPI/Veo-3.1-API) | Veo 3.1 Official fast, lite, and quality video workflows |
+| Video | [PoyoAPI/grok-imagine-video-1-5-api](https://github.com/PoyoAPI/Grok-Imagine-Video-1.5-API) | Grok Imagine Video 1.5 image-to-video drafts |
+| Video | [PoyoAPI/omni-flash-api](https://github.com/PoyoAPI/Omni-Flash-API) | Omni Flash prompt, image, and video guided drafts |
+| Video | [PoyoAPI/kling-3-0-turbo-api](https://github.com/PoyoAPI/Kling-3.0-Turbo-API) | Kling 3.0 Turbo fast drafts and multi-shot storyboards |
+| Video | [PoyoAPI/seedance-2-api](https://github.com/PoyoAPI/Seedance-2.0-API) | Seedance 2 video generation and fast drafts |
+| Video | [PoyoAPI/sora-2-official-api](https://github.com/PoyoAPI/Sora-2-API) | Sora 2 Official video and reference-frame workflows |
+| Video | [PoyoAPI/happy-horse-api](https://github.com/PoyoAPI/Happy-Horse-API) | Happy Horse text-to-video and image-to-video workflows |
+| Music | [PoyoAPI/gemini-3-1-flash-tts-api](https://github.com/PoyoAPI/Gemini-3.1-Flash-TTS-API) ([model page](https://poyo.ai/models/gemini-3-1-flash-tts)) | Gemini 3.1 Flash TTS voice and dialogue workflows |
+| Music | [PoyoAPI/elevenlabs-music-api](https://github.com/PoyoAPI/ElevenLabs-Music-API) ([model page](https://poyo.ai/models/elevenlabs-music)) | ElevenLabs Music prompt-based creator audio workflows |
+| Music | [PoyoAPI/elevenlabs-v3-tts-api](https://github.com/PoyoAPI/ElevenLabs-V3-TTS-API) | ElevenLabs v3 narration, dialogue, and voiceover workflows |
+| Music | [PoyoAPI/minimax-music-2-6-api](https://github.com/PoyoAPI/MiniMax-Music-2.6-API) | MiniMax Music 2.6 background music and creator audio drafts |
+| 3D | [PoyoAPI/hunyuan-3d-3-1-api](https://github.com/PoyoAPI/Hunyuan-3D-3.1-API) ([model page](https://poyo.ai/models/hunyuan-3d-3-1)) | Hunyuan 3D 3.1 pro and rapid 3D asset workflows |
+| 3D | [PoyoAPI/tripo-h31-3d-api](https://github.com/PoyoAPI/Tripo3D-H3.1-API) ([model page](https://poyo.ai/models/tripo-h31-3d)) | Tripo3D H3.1 high-detail text, image, and multiview 3D asset workflows |
+| 3D | [PoyoAPI/meshy-6-3d-api](https://github.com/PoyoAPI/Meshy-6-API) ([model page](https://poyo.ai/models/meshy-6-3d)) | Meshy 6 text-to-3D, image-to-3D, and multi-image-to-3D workflows |
 
 ## Unified Async Flow
 
