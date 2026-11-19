@@ -55,6 +55,9 @@ Machine-readable discovery: [models/catalog.json](models/catalog.json) ? [llms.t
 
 | Model | Best for | Start here |
 | --- | --- | --- |
+| `heygen-avatar-6`, `heygen-avatar-6-turbo` | Photo, character video, or HeyGen public avatar to lip-synced 1080p/2K talking video | [PoyoAPI/HeyGen-Avatar-6-API](https://github.com/PoyoAPI/HeyGen-Avatar-6-API) ([model page](https://poyo.ai/models/heygen-avatar-6)) |
+| `kling-4.0-image`, `kling-4.0-long-image` | 2K/4K/native 8K images and edits with up to 10 references, image sets of 2-10, long webpage/ecommerce pages | [PoyoAPI/Kling-Image-4.0-API](https://github.com/PoyoAPI/Kling-Image-4.0-API) ([model page](https://poyo.ai/models/kling-4-0-image)) |
+| `mai-image-2.7`, `mai-image-2.7-flash` | Microsoft text-to-image and editing with up to 5 references, transparent PNG/WebP, custom sizes up to 4.19 MP | [PoyoAPI/MAI-Image-2.7-API](https://github.com/PoyoAPI/MAI-Image-2.7-API) ([model page](https://poyo.ai/models/mai-image-2-7)) |
 | `seedance-2.5-flash` | Faster, lower-cost 4-30 second 480p/720p video with synchronized audio | [PoyoAPI/seedance-2-5-flash-api](https://github.com/PoyoAPI/Seedance-2.5-Flash-API) ([model page](https://poyo.ai/models/seedance-2-5-flash)) |
 | `seedance-2.5` | 4-30 second controllable video with up to 50 multimodal references | [PoyoAPI/seedance-2-5-api](https://github.com/PoyoAPI/Seedance-2.5-API) ([model page](https://poyo.ai/models/seedance-2-5)) |
 | `hailuo-03` (MiniMax H3) | 2K video, first/last frames, and reference-driven generation | [PoyoAPI/minimax-h3-api](https://github.com/PoyoAPI/MiniMax-H3-API) ([model page](https://poyo.ai/models/minimax-h3)) |

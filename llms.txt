@@ -13,6 +13,9 @@ PoYo provides server-side AI APIs at https://api.poyo.ai. Keep POYO_API_KEY priv
 
 ## Current featured model repositories
 
+- HeyGen Avatar 6: https://github.com/PoyoAPI/HeyGen-Avatar-6-API
+- Kling Image 4.0 / API model IDs kling-4.0-image, kling-4.0-long-image: https://github.com/PoyoAPI/Kling-Image-4.0-API
+- MAI Image 2.7: https://github.com/PoyoAPI/MAI-Image-2.7-API
 - Seedance 2.5 Flash: https://github.com/PoyoAPI/Seedance-2.5-Flash-API
 - Seedance 2.5: https://github.com/PoyoAPI/Seedance-2.5-API
 - MiniMax H3 / API model ID hailuo-03: https://github.com/PoyoAPI/MiniMax-H3-API

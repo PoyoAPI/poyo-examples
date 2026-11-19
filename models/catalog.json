@@ -2,8 +2,71 @@
   "schema_version": 1,
   "purpose": "Canonical machine-readable index for PoYo's currently featured model API repositories.",
   "maintained_by": "PoyoAPI",
-  "last_updated": "2026-11-16",
+  "last_updated": "2026-11-19",
   "models": [
+    {
+      "name": "HeyGen Avatar 6",
+      "slug": "heygen-avatar-6",
+      "modality": "video",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/HeyGen-Avatar-6-API",
+      "model_page": "https://poyo.ai/models/heygen-avatar-6",
+      "documentation": "https://docs.poyo.ai/api-manual/video-series/heygen-avatar-6",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "heygen-avatar-6",
+        "heygen-avatar-6-turbo"
+      ],
+      "last_verified": "2026-11-19",
+      "search_terms": [
+        "HeyGen Avatar 6 API",
+        "HeyGen Avatar 6 Turbo API",
+        "HeyGen API",
+        "HeyGen API pricing",
+        "talking avatar API"
+      ]
+    },
+    {
+      "name": "Kling Image 4.0",
+      "slug": "kling-4-0-image",
+      "modality": "image",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/Kling-Image-4.0-API",
+      "model_page": "https://poyo.ai/models/kling-4-0-image",
+      "documentation": "https://docs.poyo.ai/api-manual/image-series/kling-4-0-image",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "kling-4.0-image",
+        "kling-4.0-long-image"
+      ],
+      "last_verified": "2026-11-19",
+      "search_terms": [
+        "Kling Image 4.0 API",
+        "Kling 4.0 Image API",
+        "Kling Image 4.0 Python",
+        "Kling Image 4.0 Long Image API"
+      ]
+    },
+    {
+      "name": "MAI Image 2.7",
+      "slug": "mai-image-2-7",
+      "modality": "image",
+      "status": "live",
+      "repository": "https://github.com/PoyoAPI/MAI-Image-2.7-API",
+      "model_page": "https://poyo.ai/models/mai-image-2-7",
+      "documentation": "https://docs.poyo.ai/api-manual/image-series/mai-image-2-7",
+      "endpoint": "POST https://api.poyo.ai/api/generate/submit",
+      "model_ids": [
+        "mai-image-2.7",
+        "mai-image-2.7-flash"
+      ],
+      "last_verified": "2026-11-19",
+      "search_terms": [
+        "MAI Image 2.7 API",
+        "MAI Image 2.7 Flash API",
+        "MAI Image 2.7 Python"
+      ]
+    },
     {
       "name": "Seedance 2.5 Flash",
       "slug": "seedance-2-5-flash",
